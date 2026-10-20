@@ -1,0 +1,244 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Se creó el Wi-Fi antes que el primer ordenador electrónico.",
+      "respuesta": false,
+      "explicacion": "El ENIAC es de 1945. El primer estándar Wi-Fi (802.11) es de 1997."
+    },
+    {
+      "id": 2,
+      "texto": "Los pulpos tienen tres corazones.",
+      "respuesta": true,
+      "explicacion": "Dos bombean sangre a las branquias y uno al resto del cuerpo."
+    },
+    {
+      "id": 3,
+      "texto": "En Venus, un día dura más que un año.",
+      "respuesta": true,
+      "explicacion": "Venus tarda unos 243 días terrestres en girar sobre sí mismo y 225 en dar la vuelta al Sol."
+    },
+    {
+      "id": 4,
+      "texto": "La Gran Muralla China se ve a simple vista desde la Luna.",
+      "respuesta": false,
+      "explicacion": "Es muy estrecha para la distancia. Ningún astronauta la ha visto así."
+    },
+    {
+      "id": 5,
+      "texto": "Los plátanos son bayas, según la botánica.",
+      "respuesta": true,
+      "explicacion": "Una baya tiene la semilla dentro de la pulpa. Las fresas, en cambio, no lo son."
+    },
+    {
+      "id": 6,
+      "texto": "Un rayo nunca cae dos veces en el mismo lugar.",
+      "respuesta": false,
+      "explicacion": "El Empire State recibe unos 20 rayos al año."
+    },
+    {
+      "id": 7,
+      "texto": "Argentina ganó su primer Mundial de fútbol en 1978.",
+      "respuesta": true,
+      "explicacion": "Fue en casa, con final contra Países Bajos. El segundo llegó en 1986."
+    },
+    {
+      "id": 8,
+      "texto": "Los murciélagos son ciegos.",
+      "respuesta": false,
+      "explicacion": "Todas las especies ven. Muchas, además, se orientan con ecolocalización."
+    },
+    {
+      "id": 9,
+      "texto": "El Everest es la montaña más alta del mundo medida desde su base hasta la cima.",
+      "respuesta": false,
+      "explicacion": "Es el punto más alto sobre el nivel del mar. Medido desde su base en el fondo del océano, gana el Mauna Kea, en Hawái."
+    },
+    {
+      "id": 10,
+      "texto": "La Torre Eiffel es unos 15 cm más alta en verano que en invierno.",
+      "respuesta": true,
+      "explicacion": "El hierro se dilata con el calor."
+    },
+    {
+      "id": 11,
+      "texto": "Usamos solo el 10 % del cerebro.",
+      "respuesta": false,
+      "explicacion": "Usamos todo el cerebro, aunque no todas las zonas a la vez."
+    },
+    {
+      "id": 12,
+      "texto": "La lengua materna con más hablantes en el mundo es el mandarín.",
+      "respuesta": true,
+      "explicacion": "Tiene más de 900 millones de hablantes nativos. El inglés es el más extendido como segunda lengua."
+    },
+    {
+      "id": 13,
+      "texto": "La capital de Australia es Sídney.",
+      "respuesta": false,
+      "explicacion": "Es Canberra. Se creó en 1913 para no elegir entre Sídney y Melbourne."
+    },
+    {
+      "id": 14,
+      "texto": "Napoleón era muy bajo para su época.",
+      "respuesta": false,
+      "explicacion": "Medía alrededor de 1,69 m, algo más que la media francesa de entonces. El mito viene de confundir unidades de medida."
+    },
+    {
+      "id": 15,
+      "texto": "Los tiburones existían antes que los árboles.",
+      "respuesta": true,
+      "explicacion": "Hay tiburones de hace unos 450 millones de años. Los primeros árboles son de hace unos 385 millones."
+    },
+    {
+      "id": 16,
+      "texto": "La Universidad de Oxford es anterior al Imperio azteca.",
+      "respuesta": true,
+      "explicacion": "Se enseñaba en Oxford desde 1096. Tenochtitlan se fundó en 1325."
+    },
+    {
+      "id": 17,
+      "texto": "El ojo de un avestruz es más grande que su cerebro.",
+      "respuesta": true,
+      "explicacion": "Mide unos 5 cm de diámetro."
+    },
+    {
+      "id": 18,
+      "texto": "El sonido viaja más rápido en el agua que en el aire.",
+      "respuesta": true,
+      "explicacion": "Unos 1.480 m/s en el agua frente a unos 343 m/s en el aire."
+    },
+    {
+      "id": 19,
+      "texto": "El Sahara es el mayor desierto del mundo.",
+      "respuesta": false,
+      "explicacion": "Es el mayor desierto cálido. El mayor de todos es la Antártida."
+    },
+    {
+      "id": 20,
+      "texto": "Los gatos pueden ver en oscuridad total.",
+      "respuesta": false,
+      "explicacion": "Ven con muy poca luz, pero sin ninguna luz no ven."
+    },
+    {
+      "id": 21,
+      "texto": "El primer sitio web se publicó antes de 1995.",
+      "respuesta": true,
+      "explicacion": "Tim Berners-Lee lo publicó en el CERN en 1991."
+    },
+    {
+      "id": 22,
+      "texto": "Google se fundó antes que Facebook.",
+      "respuesta": true,
+      "explicacion": "Google, en 1998. Facebook, en 2004."
+    },
+    {
+      "id": 23,
+      "texto": "Un adulto tiene más de 300 huesos.",
+      "respuesta": false,
+      "explicacion": "Tiene 206. Los bebés nacen con unos 300 que se van fusionando."
+    },
+    {
+      "id": 24,
+      "texto": "Buenos Aires está más al sur que Ciudad del Cabo.",
+      "respuesta": true,
+      "explicacion": "Buenos Aires está a 34,6° S y Ciudad del Cabo a 33,9° S."
+    },
+    {
+      "id": 25,
+      "texto": "Un rayo alcanza más temperatura que la superficie del Sol.",
+      "respuesta": true,
+      "explicacion": "Unos 30.000 K frente a unos 5.500 K."
+    },
+    {
+      "id": 26,
+      "texto": "La Antártida es un desierto.",
+      "respuesta": true,
+      "explicacion": "Casi no llueve ni nieva. Un desierto se define por la falta de precipitaciones, no por el calor."
+    },
+    {
+      "id": 27,
+      "texto": "El hierro es el metal más abundante en la corteza terrestre.",
+      "respuesta": false,
+      "explicacion": "Es el aluminio. El hierro es el cuarto elemento más abundante, y la mayor parte del hierro de la Tierra está en el núcleo."
+    },
+    {
+      "id": 28,
+      "texto": "Un año luz mide tiempo.",
+      "respuesta": false,
+      "explicacion": "Mide distancia: lo que recorre la luz en un año, unos 9,46 billones de km."
+    },
+    {
+      "id": 29,
+      "texto": "Los camaleones cambian de color sobre todo para camuflarse.",
+      "respuesta": false,
+      "explicacion": "Lo usan sobre todo para comunicarse y regular la temperatura."
+    },
+    {
+      "id": 30,
+      "texto": "La Revolución de Mayo ocurrió en 1816.",
+      "respuesta": false,
+      "explicacion": "Fue en 1810. En 1816 se declaró la independencia."
+    },
+    {
+      "id": 31,
+      "texto": "Einstein suspendió matemáticas en el colegio.",
+      "respuesta": false,
+      "explicacion": "Dominaba el cálculo a los 15 años. El mito nace de un cambio en la escala de notas de su escuela."
+    },
+    {
+      "id": 32,
+      "texto": "Los avestruces entierran la cabeza en la arena cuando tienen miedo.",
+      "respuesta": false,
+      "explicacion": "No lo hacen. Se echan en el suelo y estiran el cuello, y de lejos parece que la cabeza no está."
+    },
+    {
+      "id": 33,
+      "texto": "El vidrio de las ventanas antiguas es más grueso abajo porque el vidrio fluye con los siglos.",
+      "respuesta": false,
+      "explicacion": "Es un mito. El vidrio de entonces se fabricaba irregular y se colocaba con la parte gruesa abajo."
+    },
+    {
+      "id": 34,
+      "texto": "El Mundial de fútbol de 1930 se jugó en Uruguay.",
+      "respuesta": true,
+      "explicacion": "Fue el primero. Ganó Uruguay, con final contra Argentina."
+    },
+    {
+      "id": 35,
+      "texto": "La primera llamada desde un teléfono móvil se hizo en 1973.",
+      "respuesta": true,
+      "explicacion": "Martin Cooper, de Motorola, llamó desde una calle de Nueva York."
+    },
+    {
+      "id": 36,
+      "texto": "El primer correo electrónico entre ordenadores se envió después de que el hombre pisara la Luna.",
+      "respuesta": true,
+      "explicacion": "La Luna fue en 1969. Ray Tomlinson envió el primer correo en red en 1971."
+    },
+    {
+      "id": 37,
+      "texto": "Un tomate es una fruta.",
+      "respuesta": true,
+      "explicacion": "Botánicamente es el fruto de la planta, con las semillas dentro."
+    },
+    {
+      "id": 38,
+      "texto": "Los delfines duermen con medio cerebro despierto.",
+      "respuesta": true,
+      "explicacion": "Una mitad descansa mientras la otra les permite seguir nadando y respirando."
+    },
+    {
+      "id": 39,
+      "texto": "Los koalas tienen huellas dactilares casi idénticas a las humanas.",
+      "respuesta": true,
+      "explicacion": "Se confunden incluso al microscopio."
+    },
+    {
+      "id": 40,
+      "texto": "YouTube se fundó después que Twitter.",
+      "respuesta": false,
+      "explicacion": "YouTube, en 2005. Twitter, en 2006."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Brasil es el país con más Mundiales de fútbol masculino.",
+      "respuesta": true,
+      "explicacion": "Ganó cinco: 1958, 1962, 1970, 1994 y 2002."
+    },
+    {
+      "id": 2,
+      "texto": "El gol de la «mano de Dios» de Maradona fue en la final del Mundial de 1986.",
+      "respuesta": false,
+      "explicacion": "Fue en los cuartos de final, contra Inglaterra. La final fue contra Alemania Federal."
+    },
+    {
+      "id": 3,
+      "texto": "Pelé ganó tres Mundiales.",
+      "respuesta": true,
+      "explicacion": "1958, 1962 y 1970 con Brasil."
+    },
+    {
+      "id": 4,
+      "texto": "Maradona jugó en el Barcelona.",
+      "respuesta": true,
+      "explicacion": "Estuvo allí de 1982 a 1984."
+    },
+    {
+      "id": 5,
+      "texto": "Inglaterra ha ganado dos Mundiales.",
+      "respuesta": false,
+      "explicacion": "Ganó uno solo, el de 1966, como local."
+    },
+    {
+      "id": 6,
+      "texto": "El Real Madrid es el club con más Copas de Europa.",
+      "respuesta": true,
+      "explicacion": "Lleva 15, más que cualquier otro club."
+    },
+    {
+      "id": 7,
+      "texto": "Argentina ganó el Mundial de 1990.",
+      "respuesta": false,
+      "explicacion": "Perdió la final contra Alemania Federal por 1-0, con un penal en el minuto 85."
+    },
+    {
+      "id": 8,
+      "texto": "Messi ganó su primer Mundial en 2022.",
+      "respuesta": true,
+      "explicacion": "Argentina venció a Francia en la final de Qatar."
+    },
+    {
+      "id": 9,
+      "texto": "La final del Mundial de 2022 se decidió en los penales.",
+      "respuesta": true,
+      "explicacion": "Terminó 3-3 tras la prórroga y Argentina ganó 4-2 en los penales."
+    },
+    {
+      "id": 10,
+      "texto": "Messi ganó el Mundial de 2014.",
+      "respuesta": false,
+      "explicacion": "Lo ganó Alemania. Argentina perdió la final 1-0 en la prórroga."
+    },
+    {
+      "id": 11,
+      "texto": "Argentina ganó la Copa América de 2021 en el Maracaná.",
+      "respuesta": true,
+      "explicacion": "Venció 1-0 a Brasil, con gol de Ángel Di María."
+    },
+    {
+      "id": 12,
+      "texto": "El Mundial de 2002 se jugó en dos países.",
+      "respuesta": true,
+      "explicacion": "Corea del Sur y Japón lo organizaron juntos."
+    },
+    {
+      "id": 13,
+      "texto": "Pelé ganó el Mundial de 1966.",
+      "respuesta": false,
+      "explicacion": "En 1966 ganó Inglaterra. Brasil cayó en la primera fase."
+    },
+    {
+      "id": 14,
+      "texto": "Alemania le ganó 7-1 a Brasil en las semifinales del Mundial 2014.",
+      "respuesta": true,
+      "explicacion": "Fue en Belo Horizonte. Cinco de los goles llegaron en la primera media hora."
+    },
+    {
+      "id": 15,
+      "texto": "Brasil ganó el Mundial de 1950, que se jugaba en casa.",
+      "respuesta": false,
+      "explicacion": "Ganó Uruguay 2-1 en el Maracaná, en el partido conocido como el Maracanazo."
+    },
+    {
+      "id": 16,
+      "texto": "Maradona fue el capitán de la Argentina campeona del mundo en 1986.",
+      "respuesta": true,
+      "explicacion": "Ganó 3-2 a Alemania Federal en la final, en el estadio Azteca."
+    },
+    {
+      "id": 17,
+      "texto": "El estadio Azteca de México fue sede de dos finales de Mundial.",
+      "respuesta": true,
+      "explicacion": "En 1970 y en 1986."
+    },
+    {
+      "id": 18,
+      "texto": "Francia ganó el Mundial de 2006.",
+      "respuesta": false,
+      "explicacion": "Ganó Italia en los penales. Francia perdió la final tras la expulsión de Zidane."
+    },
+    {
+      "id": 19,
+      "texto": "Messi nació en Buenos Aires.",
+      "respuesta": false,
+      "explicacion": "Nació en Rosario, Santa Fe."
+    },
+    {
+      "id": 20,
+      "texto": "El FC Barcelona se fundó en 1950.",
+      "respuesta": false,
+      "explicacion": "Se fundó en 1899."
+    },
+    {
+      "id": 21,
+      "texto": "Independiente es el club con más Copas Libertadores.",
+      "respuesta": true,
+      "explicacion": "Ganó siete."
+    },
+    {
+      "id": 22,
+      "texto": "El Mundial de fútbol se juega cada dos años.",
+      "respuesta": false,
+      "explicacion": "Se juega cada cuatro años."
+    },
+    {
+      "id": 23,
+      "texto": "Boca Juniors nunca descendió de categoría.",
+      "respuesta": true,
+      "explicacion": "Juega en Primera desde 1913 y nunca bajó."
+    },
+    {
+      "id": 24,
+      "texto": "Si el equipo atacante manda la pelota afuera por la línea de fondo, se cobra córner.",
+      "respuesta": false,
+      "explicacion": "Se cobra saque de meta. El córner es cuando la toca por última vez el equipo defensor."
+    },
+    {
+      "id": 25,
+      "texto": "Alemania e Italia han ganado cuatro Mundiales cada una.",
+      "respuesta": true,
+      "explicacion": "Alemania: 1954, 1974, 1990 y 2014. Italia: 1934, 1938, 1982 y 2006."
+    },
+    {
+      "id": 26,
+      "texto": "Un arquero puede agarrar con las manos un pase que le hace un compañero con el pie.",
+      "respuesta": false,
+      "explicacion": "Es falta: se concede un tiro libre indirecto para el rival."
+    },
+    {
+      "id": 27,
+      "texto": "Las tarjetas amarillas y rojas se usaron por primera vez en el Mundial de 1970.",
+      "respuesta": true,
+      "explicacion": "Las ideó el árbitro inglés Ken Aston."
+    },
+    {
+      "id": 28,
+      "texto": "Uruguay nunca ganó un Mundial.",
+      "respuesta": false,
+      "explicacion": "Ganó dos: 1930 y 1950."
+    },
+    {
+      "id": 29,
+      "texto": "El Mundial de 1998 fue el primero con 32 selecciones.",
+      "respuesta": true,
+      "explicacion": "Hasta 1994 participaban 24."
+    },
+    {
+      "id": 30,
+      "texto": "River Plate nunca jugó en la segunda división.",
+      "respuesta": false,
+      "explicacion": "Descendió en 2011 y jugó en la B Nacional una temporada."
+    },
+    {
+      "id": 31,
+      "texto": "Messi ganó su primer título con la selección mayor en 2021.",
+      "respuesta": true,
+      "explicacion": "Fue la Copa América, en Brasil."
+    },
+    {
+      "id": 32,
+      "texto": "La Copa del Mundo es de oro macizo.",
+      "respuesta": false,
+      "explicacion": "Es hueca. Tiene unos 6 kg y está hecha de oro de 18 quilates."
+    },
+    {
+      "id": 33,
+      "texto": "Las primeras reglas del fútbol moderno se escribieron en Inglaterra en 1863.",
+      "respuesta": true,
+      "explicacion": "La Football Association las redactó ese año."
+    },
+    {
+      "id": 34,
+      "texto": "El Balón de Oro lo entrega la FIFA desde su creación.",
+      "respuesta": false,
+      "explicacion": "Lo creó la revista France Football en 1956. La FIFA lo entregó junto a ella entre 2010 y 2015."
+    },
+    {
+      "id": 35,
+      "texto": "Cristiano Ronaldo ganó la Eurocopa 2016 con Portugal.",
+      "respuesta": true,
+      "explicacion": "Portugal venció 1-0 a Francia en la final, con gol de Éder en la prórroga."
+    },
+    {
+      "id": 36,
+      "texto": "El estadio Maracaná está en San Pablo.",
+      "respuesta": false,
+      "explicacion": "Está en Río de Janeiro."
+    },
+    {
+      "id": 37,
+      "texto": "El primer Mundial femenino se jugó en 1991.",
+      "respuesta": true,
+      "explicacion": "Se jugó en China y lo ganó Estados Unidos."
+    },
+    {
+      "id": 38,
+      "texto": "Chile ganó un Mundial de fútbol.",
+      "respuesta": false,
+      "explicacion": "Su mejor resultado es el tercer puesto de 1962, jugando como local."
+    },
+    {
+      "id": 39,
+      "texto": "Argentina ganó el Mundial de 1982.",
+      "respuesta": false,
+      "explicacion": "Lo ganó Italia. Argentina, que defendía el título, cayó en la segunda fase."
+    },
+    {
+      "id": 40,
+      "texto": "Brasil ganó el Mundial de 2014 jugando como local.",
+      "respuesta": false,
+      "explicacion": "Fue eliminado en semifinales por Alemania. Ganó Alemania."
+    }
+  ]
+}

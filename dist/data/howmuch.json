@@ -1,0 +1,1120 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Geografía"
+    },
+    {
+      "id": 3,
+      "nombre": "Ciencia"
+    },
+    {
+      "id": 4,
+      "nombre": "Historia"
+    },
+    {
+      "id": 5,
+      "nombre": "Datos random"
+    },
+    {
+      "id": 6,
+      "nombre": "Deportes"
+    },
+    {
+      "id": 7,
+      "nombre": "Fútbol"
+    },
+    {
+      "id": 8,
+      "nombre": "Básquet"
+    },
+    {
+      "id": 9,
+      "nombre": "Tecnología"
+    },
+    {
+      "id": 10,
+      "nombre": "Animales"
+    },
+    {
+      "id": 11,
+      "nombre": "Espacio"
+    },
+    {
+      "id": 12,
+      "nombre": "Cuerpo humano"
+    },
+    {
+      "id": 13,
+      "nombre": "Entretenimiento"
+    },
+    {
+      "id": 14,
+      "nombre": "Videojuegos"
+    },
+    {
+      "id": 15,
+      "nombre": "Comida"
+    },
+    {
+      "id": 16,
+      "nombre": "Argentina"
+    },
+    {
+      "id": 17,
+      "nombre": "Récords"
+    },
+    {
+      "id": 18,
+      "nombre": "Naturaleza"
+    },
+    {
+      "id": 19,
+      "nombre": "Transporte"
+    },
+    {
+      "id": 20,
+      "nombre": "Economía"
+    },
+    {
+      "id": 21,
+      "nombre": "Literatura"
+    },
+    {
+      "id": 22,
+      "nombre": "Música"
+    },
+    {
+      "id": 23,
+      "nombre": "Cine y series"
+    },
+    {
+      "id": 24,
+      "nombre": "Arquitectura"
+    },
+    {
+      "id": 25,
+      "nombre": "Inventos"
+    }
+  ],
+  "preguntas": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "texto": "¿Cuántos kilómetros mide el río Paraná?",
+      "respuesta": 4880,
+      "min": 0,
+      "max": 10000,
+      "paso": 10,
+      "unidad": "km",
+      "dificultad": 3
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "texto": "¿Cuántos metros de altura tiene el Aconcagua?",
+      "respuesta": 6961,
+      "min": 0,
+      "max": 10000,
+      "paso": 10,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "texto": "¿Cuántos metros de altura tiene la Torre Eiffel, antenas incluidas?",
+      "respuesta": 330,
+      "min": 0,
+      "max": 1000,
+      "paso": 5,
+      "unidad": "m",
+      "dificultad": 3
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "texto": "¿Cuántos millones de habitantes tenía Argentina en el censo de 2022?",
+      "respuesta": 46,
+      "min": 0,
+      "max": 100,
+      "paso": 0.5,
+      "unidad": "millones",
+      "dificultad": 3
+    },
+    {
+      "id": 7,
+      "categoriaId": 3,
+      "texto": "¿A qué distancia media está la Luna de la Tierra, en kilómetros?",
+      "respuesta": 384400,
+      "min": 0,
+      "max": 1000000,
+      "paso": 1000,
+      "unidad": "km",
+      "dificultad": 3
+    },
+    {
+      "id": 8,
+      "categoriaId": 3,
+      "texto": "¿Cuántos huesos tiene el cuerpo de un adulto?",
+      "respuesta": 206,
+      "min": 0,
+      "max": 500,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "texto": "¿Cuántos metros de altura tiene el Monte Everest?",
+      "respuesta": 8849,
+      "min": 0,
+      "max": 12000,
+      "paso": 10,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 10,
+      "categoriaId": 4,
+      "texto": "¿En qué año terminó la Segunda Guerra Mundial?",
+      "respuesta": 1945,
+      "min": 1900,
+      "max": 2000,
+      "paso": 1,
+      "dificultad": 1
+    },
+    {
+      "id": 11,
+      "categoriaId": 1,
+      "texto": "¿Cuántos kilómetros mide el río Nilo?",
+      "respuesta": 6650,
+      "min": 0,
+      "max": 10000,
+      "paso": 10,
+      "unidad": "km",
+      "dificultad": 3
+    },
+    {
+      "id": 12,
+      "categoriaId": 4,
+      "texto": "¿Cuántos países son miembros de la ONU?",
+      "respuesta": 193,
+      "min": 0,
+      "max": 400,
+      "paso": 1,
+      "dificultad": 3
+    },
+    {
+      "id": 13,
+      "categoriaId": 6,
+      "texto": "¿Cuántos metros mide una maratón?",
+      "respuesta": 42195,
+      "min": 0,
+      "max": 50000,
+      "paso": 100,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 14,
+      "categoriaId": 6,
+      "texto": "¿Cuántos jugadores tiene un equipo de voleibol en cancha?",
+      "respuesta": 6,
+      "min": 0,
+      "max": 20,
+      "paso": 1,
+      "unidad": "jugadores",
+      "dificultad": 1
+    },
+    {
+      "id": 15,
+      "categoriaId": 6,
+      "texto": "¿Cuántos minutos dura un partido reglamentario de fútbol sin añadido?",
+      "respuesta": 90,
+      "min": 0,
+      "max": 120,
+      "paso": 1,
+      "unidad": "minutos",
+      "dificultad": 1
+    },
+    {
+      "id": 16,
+      "categoriaId": 6,
+      "texto": "¿Cuántos kilómetros mide aproximadamente el Tour de Francia en una edición típica?",
+      "respuesta": 3500,
+      "min": 0,
+      "max": 5000,
+      "paso": 100,
+      "unidad": "km",
+      "dificultad": 3
+    },
+    {
+      "id": 17,
+      "categoriaId": 6,
+      "texto": "¿Cuántos hoyos tiene una vuelta estándar de golf?",
+      "respuesta": 18,
+      "min": 0,
+      "max": 36,
+      "paso": 1,
+      "unidad": "hoyos",
+      "dificultad": 1
+    },
+    {
+      "id": 18,
+      "categoriaId": 7,
+      "texto": "¿Cuántos jugadores por equipo están en cancha en un partido de fútbol?",
+      "respuesta": 11,
+      "min": 0,
+      "max": 30,
+      "paso": 1,
+      "unidad": "jugadores",
+      "dificultad": 1
+    },
+    {
+      "id": 19,
+      "categoriaId": 7,
+      "texto": "¿Cuántos minutos dura cada tiempo reglamentario de un partido de fútbol?",
+      "respuesta": 45,
+      "min": 0,
+      "max": 60,
+      "paso": 1,
+      "unidad": "minutos",
+      "dificultad": 1
+    },
+    {
+      "id": 20,
+      "categoriaId": 7,
+      "texto": "¿En qué año se celebró el primer Mundial masculino de fútbol?",
+      "respuesta": 1930,
+      "min": 1900,
+      "max": 2050,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 21,
+      "categoriaId": 7,
+      "texto": "¿Cuántos equipos disputaron el Mundial masculino de 2022?",
+      "respuesta": 32,
+      "min": 0,
+      "max": 64,
+      "paso": 1,
+      "unidad": "equipos",
+      "dificultad": 2
+    },
+    {
+      "id": 22,
+      "categoriaId": 7,
+      "texto": "¿A cuántos metros está el punto penal del arco?",
+      "respuesta": 11,
+      "min": 0,
+      "max": 30,
+      "paso": 1,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 23,
+      "categoriaId": 7,
+      "texto": "¿Cuántos balones de oro ganó Lionel Messi hasta 2023?",
+      "respuesta": 8,
+      "min": 0,
+      "max": 15,
+      "paso": 1,
+      "unidad": "premios",
+      "dificultad": 2
+    },
+    {
+      "id": 24,
+      "categoriaId": 7,
+      "texto": "¿Cuántos minutos dura el alargue máximo habitual en una eliminatoria, sin contar añadido?",
+      "respuesta": 30,
+      "min": 0,
+      "max": 60,
+      "paso": 1,
+      "unidad": "minutos",
+      "dificultad": 2
+    },
+    {
+      "id": 25,
+      "categoriaId": 8,
+      "texto": "¿Cuántos jugadores por equipo juegan en cancha en básquet?",
+      "respuesta": 5,
+      "min": 0,
+      "max": 12,
+      "paso": 1,
+      "unidad": "jugadores",
+      "dificultad": 1
+    },
+    {
+      "id": 26,
+      "categoriaId": 8,
+      "texto": "¿Cuánto mide de alto el aro de básquet desde el suelo?",
+      "respuesta": 3.05,
+      "min": 0,
+      "max": 5,
+      "paso": 0.05,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 27,
+      "categoriaId": 8,
+      "texto": "¿Cuántos puntos vale un tiro libre en básquet?",
+      "respuesta": 1,
+      "min": 0,
+      "max": 5,
+      "paso": 1,
+      "unidad": "puntos",
+      "dificultad": 1
+    },
+    {
+      "id": 28,
+      "categoriaId": 8,
+      "texto": "¿Cuántos minutos dura un partido NBA sin prórrogas?",
+      "respuesta": 48,
+      "min": 0,
+      "max": 60,
+      "paso": 1,
+      "unidad": "minutos",
+      "dificultad": 2
+    },
+    {
+      "id": 29,
+      "categoriaId": 8,
+      "texto": "¿En qué año se inventó el básquet?",
+      "respuesta": 1891,
+      "min": 1800,
+      "max": 2000,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 30,
+      "categoriaId": 8,
+      "texto": "¿Cuántos centímetros mide el diámetro aproximado de un aro de básquet?",
+      "respuesta": 45,
+      "min": 30,
+      "max": 60,
+      "paso": 1,
+      "unidad": "cm",
+      "dificultad": 3
+    },
+    {
+      "id": 31,
+      "categoriaId": 9,
+      "texto": "¿Cuántos bits tiene un byte?",
+      "respuesta": 8,
+      "min": 0,
+      "max": 32,
+      "paso": 1,
+      "unidad": "bits",
+      "dificultad": 1
+    },
+    {
+      "id": 32,
+      "categoriaId": 9,
+      "texto": "¿En qué año se lanzó el primer iPhone?",
+      "respuesta": 2007,
+      "min": 1990,
+      "max": 2025,
+      "paso": 1,
+      "dificultad": 1
+    },
+    {
+      "id": 33,
+      "categoriaId": 9,
+      "texto": "¿Cuántos caracteres hexadecimales tiene una dirección IPv6 completa?",
+      "respuesta": 32,
+      "min": 0,
+      "max": 64,
+      "paso": 1,
+      "unidad": "caracteres",
+      "dificultad": 3
+    },
+    {
+      "id": 34,
+      "categoriaId": 9,
+      "texto": "¿Cuántos kilobytes decimales hay en un megabyte?",
+      "respuesta": 1000,
+      "min": 0,
+      "max": 2000,
+      "paso": 10,
+      "unidad": "KB",
+      "dificultad": 2
+    },
+    {
+      "id": 35,
+      "categoriaId": 9,
+      "texto": "¿En qué año se publicó la primera versión de Windows?",
+      "respuesta": 1985,
+      "min": 1970,
+      "max": 2000,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 36,
+      "categoriaId": 9,
+      "texto": "¿Cuántos núcleos tiene una CPU de 8 núcleos?",
+      "respuesta": 8,
+      "min": 1,
+      "max": 64,
+      "paso": 1,
+      "unidad": "núcleos",
+      "dificultad": 1
+    },
+    {
+      "id": 37,
+      "categoriaId": 10,
+      "texto": "¿Cuántas patas tiene una araña?",
+      "respuesta": 8,
+      "min": 0,
+      "max": 20,
+      "paso": 1,
+      "unidad": "patas",
+      "dificultad": 1
+    },
+    {
+      "id": 38,
+      "categoriaId": 10,
+      "texto": "¿Cuántos corazones tiene un pulpo?",
+      "respuesta": 3,
+      "min": 0,
+      "max": 10,
+      "paso": 1,
+      "unidad": "corazones",
+      "dificultad": 2
+    },
+    {
+      "id": 39,
+      "categoriaId": 10,
+      "texto": "¿Cuántas horas puede dormir un koala aproximadamente al día?",
+      "respuesta": 20,
+      "min": 0,
+      "max": 24,
+      "paso": 1,
+      "unidad": "horas",
+      "dificultad": 2
+    },
+    {
+      "id": 40,
+      "categoriaId": 10,
+      "texto": "¿Cuántos dientes suele tener un perro adulto?",
+      "respuesta": 42,
+      "min": 0,
+      "max": 60,
+      "paso": 1,
+      "unidad": "dientes",
+      "dificultad": 2
+    },
+    {
+      "id": 41,
+      "categoriaId": 10,
+      "texto": "¿Cuántos estómagos funcionales tiene una vaca?",
+      "respuesta": 4,
+      "min": 1,
+      "max": 8,
+      "paso": 1,
+      "unidad": "compartimentos",
+      "dificultad": 2
+    },
+    {
+      "id": 42,
+      "categoriaId": 10,
+      "texto": "¿Cuántos brazos tiene una estrella de mar común?",
+      "respuesta": 5,
+      "min": 0,
+      "max": 15,
+      "paso": 1,
+      "unidad": "brazos",
+      "dificultad": 1
+    },
+    {
+      "id": 43,
+      "categoriaId": 11,
+      "texto": "¿Cuántos kilómetros hay entre la Tierra y el Sol, en promedio?",
+      "respuesta": 149600000,
+      "min": 0,
+      "max": 300000000,
+      "paso": 1000000,
+      "unidad": "km",
+      "dificultad": 3
+    },
+    {
+      "id": 44,
+      "categoriaId": 11,
+      "texto": "¿Cuántos planetas hay en el sistema solar?",
+      "respuesta": 8,
+      "min": 0,
+      "max": 20,
+      "paso": 1,
+      "unidad": "planetas",
+      "dificultad": 1
+    },
+    {
+      "id": 45,
+      "categoriaId": 11,
+      "texto": "¿Cuántos días terrestres tarda la Luna en orbitar aproximadamente la Tierra?",
+      "respuesta": 27.3,
+      "min": 0,
+      "max": 40,
+      "paso": 0.1,
+      "unidad": "días",
+      "dificultad": 3
+    },
+    {
+      "id": 46,
+      "categoriaId": 11,
+      "texto": "¿Cuántos minutos tarda la luz del Sol en llegar a la Tierra?",
+      "respuesta": 8.3,
+      "min": 0,
+      "max": 20,
+      "paso": 0.1,
+      "unidad": "minutos",
+      "dificultad": 2
+    },
+    {
+      "id": 47,
+      "categoriaId": 11,
+      "texto": "¿Cuántos años tiene aproximadamente el universo, en miles de millones?",
+      "respuesta": 13.8,
+      "min": 0,
+      "max": 30,
+      "paso": 0.1,
+      "unidad": "miles de millones de años",
+      "dificultad": 3
+    },
+    {
+      "id": 48,
+      "categoriaId": 11,
+      "texto": "¿Cuántos satélites naturales tiene Marte?",
+      "respuesta": 2,
+      "min": 0,
+      "max": 10,
+      "paso": 1,
+      "unidad": "satélites",
+      "dificultad": 2
+    },
+    {
+      "id": 49,
+      "categoriaId": 12,
+      "texto": "¿Cuántos litros de sangre tiene aproximadamente un adulto?",
+      "respuesta": 5,
+      "min": 1,
+      "max": 10,
+      "paso": 0.5,
+      "unidad": "litros",
+      "dificultad": 2
+    },
+    {
+      "id": 50,
+      "categoriaId": 12,
+      "texto": "¿Cuántos músculos tiene aproximadamente el cuerpo humano?",
+      "respuesta": 600,
+      "min": 300,
+      "max": 1000,
+      "paso": 10,
+      "unidad": "músculos",
+      "dificultad": 3
+    },
+    {
+      "id": 51,
+      "categoriaId": 12,
+      "texto": "¿Cuántos dientes tiene normalmente un adulto con muelas del juicio?",
+      "respuesta": 32,
+      "min": 20,
+      "max": 40,
+      "paso": 1,
+      "unidad": "dientes",
+      "dificultad": 2
+    },
+    {
+      "id": 52,
+      "categoriaId": 12,
+      "texto": "¿Cuántos litros de aire puede contener aproximadamente un par de pulmones a capacidad total?",
+      "respuesta": 6,
+      "min": 2,
+      "max": 10,
+      "paso": 0.5,
+      "unidad": "litros",
+      "dificultad": 3
+    },
+    {
+      "id": 53,
+      "categoriaId": 12,
+      "texto": "¿Cuántas vértebras tiene normalmente la columna humana, contando las fusionadas?",
+      "respuesta": 33,
+      "min": 20,
+      "max": 40,
+      "paso": 1,
+      "unidad": "vértebras",
+      "dificultad": 3
+    },
+    {
+      "id": 54,
+      "categoriaId": 12,
+      "texto": "¿Cuántas veces late el corazón por día a 70 latidos por minuto, aproximadamente?",
+      "respuesta": 100800,
+      "min": 50000,
+      "max": 150000,
+      "paso": 1000,
+      "unidad": "latidos",
+      "dificultad": 3
+    },
+    {
+      "id": 55,
+      "categoriaId": 13,
+      "texto": "¿Cuántos premios Óscar competitivos ganó Titanic?",
+      "respuesta": 11,
+      "min": 0,
+      "max": 20,
+      "paso": 1,
+      "unidad": "premios",
+      "dificultad": 2
+    },
+    {
+      "id": 56,
+      "categoriaId": 13,
+      "texto": "¿En qué año se estrenó la primera película de Toy Story?",
+      "respuesta": 1995,
+      "min": 1980,
+      "max": 2010,
+      "paso": 1,
+      "dificultad": 1
+    },
+    {
+      "id": 57,
+      "categoriaId": 13,
+      "texto": "¿Cuántas temporadas tuvo la serie Friends?",
+      "respuesta": 10,
+      "min": 1,
+      "max": 20,
+      "paso": 1,
+      "unidad": "temporadas",
+      "dificultad": 1
+    },
+    {
+      "id": 58,
+      "categoriaId": 13,
+      "texto": "¿Cuántos libros componen la saga principal de Harry Potter?",
+      "respuesta": 7,
+      "min": 1,
+      "max": 15,
+      "paso": 1,
+      "unidad": "libros",
+      "dificultad": 1
+    },
+    {
+      "id": 59,
+      "categoriaId": 13,
+      "texto": "¿Cuántos minutos dura aproximadamente una película de 2 horas y media?",
+      "respuesta": 150,
+      "min": 60,
+      "max": 240,
+      "paso": 5,
+      "unidad": "minutos",
+      "dificultad": 1
+    },
+    {
+      "id": 60,
+      "categoriaId": 14,
+      "texto": "¿En qué año salió Minecraft al lanzamiento completo?",
+      "respuesta": 2011,
+      "min": 2000,
+      "max": 2025,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 61,
+      "categoriaId": 14,
+      "texto": "¿Cuántos Pokémon había en la primera generación?",
+      "respuesta": 151,
+      "min": 50,
+      "max": 300,
+      "paso": 1,
+      "unidad": "Pokémon",
+      "dificultad": 2
+    },
+    {
+      "id": 62,
+      "categoriaId": 14,
+      "texto": "¿En qué año se lanzó la primera PlayStation?",
+      "respuesta": 1994,
+      "min": 1980,
+      "max": 2010,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 63,
+      "categoriaId": 14,
+      "texto": "¿Cuántos jugadores pueden participar en una partida estándar de Fortnite Battle Royale?",
+      "respuesta": 100,
+      "min": 20,
+      "max": 150,
+      "paso": 1,
+      "unidad": "jugadores",
+      "dificultad": 2
+    },
+    {
+      "id": 64,
+      "categoriaId": 14,
+      "texto": "¿Cuántos bloques de distancia mide un bloque de Minecraft por lado?",
+      "respuesta": 1,
+      "min": 0,
+      "max": 10,
+      "paso": 1,
+      "unidad": "bloques",
+      "dificultad": 1
+    },
+    {
+      "id": 65,
+      "categoriaId": 15,
+      "texto": "¿Cuántos gramos hay en un kilogramo?",
+      "respuesta": 1000,
+      "min": 0,
+      "max": 5000,
+      "paso": 10,
+      "unidad": "g",
+      "dificultad": 1
+    },
+    {
+      "id": 66,
+      "categoriaId": 15,
+      "texto": "¿Cuántas calorías alimentarias aporta aproximadamente un gramo de grasa?",
+      "respuesta": 9,
+      "min": 0,
+      "max": 20,
+      "paso": 1,
+      "unidad": "kcal",
+      "dificultad": 2
+    },
+    {
+      "id": 67,
+      "categoriaId": 15,
+      "texto": "¿Cuántos mililitros tiene una taza métrica?",
+      "respuesta": 250,
+      "min": 100,
+      "max": 500,
+      "paso": 10,
+      "unidad": "ml",
+      "dificultad": 1
+    },
+    {
+      "id": 68,
+      "categoriaId": 15,
+      "texto": "¿Cuántos minutos se recomienda hervir un huevo para que la yema quede bien cocida, aproximadamente?",
+      "respuesta": 10,
+      "min": 1,
+      "max": 20,
+      "paso": 1,
+      "unidad": "minutos",
+      "dificultad": 1
+    },
+    {
+      "id": 69,
+      "categoriaId": 15,
+      "texto": "¿Cuántos granos de café se necesitan aproximadamente para preparar un espresso simple?",
+      "respuesta": 18,
+      "min": 5,
+      "max": 30,
+      "paso": 1,
+      "unidad": "g de café",
+      "dificultad": 3
+    },
+    {
+      "id": 70,
+      "categoriaId": 16,
+      "texto": "¿Cuántas provincias tiene Argentina?",
+      "respuesta": 23,
+      "min": 0,
+      "max": 30,
+      "paso": 1,
+      "unidad": "provincias",
+      "dificultad": 1
+    },
+    {
+      "id": 71,
+      "categoriaId": 16,
+      "texto": "¿En qué año se declaró la independencia argentina?",
+      "respuesta": 1816,
+      "min": 1700,
+      "max": 1900,
+      "paso": 1,
+      "dificultad": 1
+    },
+    {
+      "id": 72,
+      "categoriaId": 16,
+      "texto": "¿Cuántos kilómetros cuadrados tiene Argentina, aproximadamente?",
+      "respuesta": 2780000,
+      "min": 1000000,
+      "max": 4000000,
+      "paso": 10000,
+      "unidad": "km²",
+      "dificultad": 3
+    },
+    {
+      "id": 73,
+      "categoriaId": 16,
+      "texto": "¿Cuántos metros sobre el nivel del mar tiene el punto más alto de Argentina?",
+      "respuesta": 6961,
+      "min": 5000,
+      "max": 8000,
+      "paso": 10,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 74,
+      "categoriaId": 16,
+      "texto": "¿Cuántos habitantes tuvo aproximadamente la Ciudad Autónoma de Buenos Aires en el censo 2022, en millones?",
+      "respuesta": 3.1,
+      "min": 1,
+      "max": 6,
+      "paso": 0.1,
+      "unidad": "millones",
+      "dificultad": 2
+    },
+    {
+      "id": 75,
+      "categoriaId": 17,
+      "texto": "¿Cuántos kilómetros por hora alcanzó aproximadamente Usain Bolt en su pico de velocidad?",
+      "respuesta": 44.7,
+      "min": 20,
+      "max": 60,
+      "paso": 0.1,
+      "unidad": "km/h",
+      "dificultad": 3
+    },
+    {
+      "id": 76,
+      "categoriaId": 17,
+      "texto": "¿Cuántos minutos duró el partido de tenis más largo registrado en Wimbledon en 2010?",
+      "respuesta": 665,
+      "min": 300,
+      "max": 900,
+      "paso": 5,
+      "unidad": "minutos",
+      "dificultad": 3
+    },
+    {
+      "id": 77,
+      "categoriaId": 17,
+      "texto": "¿Cuántos metros mide una piscina olímpica de largo?",
+      "respuesta": 50,
+      "min": 25,
+      "max": 100,
+      "paso": 1,
+      "unidad": "m",
+      "dificultad": 1
+    },
+    {
+      "id": 78,
+      "categoriaId": 17,
+      "texto": "¿Cuántos metros mide aproximadamente el récord mundial masculino de salto de longitud?",
+      "respuesta": 8.95,
+      "min": 5,
+      "max": 12,
+      "paso": 0.05,
+      "unidad": "m",
+      "dificultad": 3
+    },
+    {
+      "id": 79,
+      "categoriaId": 19,
+      "texto": "¿Cuántos kilómetros por hora puede superar un tren de alta velocidad comercial en servicio?",
+      "respuesta": 300,
+      "min": 100,
+      "max": 500,
+      "paso": 10,
+      "unidad": "km/h",
+      "dificultad": 2
+    },
+    {
+      "id": 80,
+      "categoriaId": 19,
+      "texto": "¿Cuántas ruedas tiene un camión articulado típico con configuración de 5 ejes?",
+      "respuesta": 18,
+      "min": 6,
+      "max": 24,
+      "paso": 1,
+      "unidad": "ruedas",
+      "dificultad": 3
+    },
+    {
+      "id": 81,
+      "categoriaId": 19,
+      "texto": "¿Cuántos kilómetros hay aproximadamente de Buenos Aires a Córdoba por carretera?",
+      "respuesta": 700,
+      "min": 400,
+      "max": 1200,
+      "paso": 10,
+      "unidad": "km",
+      "dificultad": 2
+    },
+    {
+      "id": 82,
+      "categoriaId": 20,
+      "texto": "¿Cuántos países usan el euro como moneda oficial en la eurozona desde 2023?",
+      "respuesta": 20,
+      "min": 10,
+      "max": 30,
+      "paso": 1,
+      "unidad": "países",
+      "dificultad": 2
+    },
+    {
+      "id": 83,
+      "categoriaId": 20,
+      "texto": "¿Cuántos minutos tiene un día?",
+      "respuesta": 1440,
+      "min": 1000,
+      "max": 2000,
+      "paso": 10,
+      "unidad": "minutos",
+      "dificultad": 1
+    },
+    {
+      "id": 84,
+      "categoriaId": 20,
+      "texto": "¿Cuántos segundos tiene una hora?",
+      "respuesta": 3600,
+      "min": 1000,
+      "max": 5000,
+      "paso": 60,
+      "unidad": "segundos",
+      "dificultad": 1
+    },
+    {
+      "id": 85,
+      "categoriaId": 21,
+      "texto": "¿Cuántas palabras tiene aproximadamente la novela Don Quijote de la Mancha?",
+      "respuesta": 380000,
+      "min": 100000,
+      "max": 600000,
+      "paso": 10000,
+      "unidad": "palabras",
+      "dificultad": 3
+    },
+    {
+      "id": 86,
+      "categoriaId": 21,
+      "texto": "¿En qué año se publicó la primera parte de Don Quijote?",
+      "respuesta": 1605,
+      "min": 1500,
+      "max": 1700,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 87,
+      "categoriaId": 22,
+      "texto": "¿Cuántas teclas tiene un piano estándar?",
+      "respuesta": 88,
+      "min": 60,
+      "max": 100,
+      "paso": 1,
+      "unidad": "teclas",
+      "dificultad": 1
+    },
+    {
+      "id": 88,
+      "categoriaId": 22,
+      "texto": "¿Cuántas cuerdas tiene una guitarra clásica estándar?",
+      "respuesta": 6,
+      "min": 4,
+      "max": 12,
+      "paso": 1,
+      "unidad": "cuerdas",
+      "dificultad": 1
+    },
+    {
+      "id": 89,
+      "categoriaId": 22,
+      "texto": "¿Cuántas notas diferentes hay en una escala cromática occidental antes de repetir la octava?",
+      "respuesta": 12,
+      "min": 5,
+      "max": 24,
+      "paso": 1,
+      "unidad": "notas",
+      "dificultad": 2
+    },
+    {
+      "id": 90,
+      "categoriaId": 23,
+      "texto": "¿En qué año se estrenó la primera película sonora considerada un gran éxito comercial, The Jazz Singer?",
+      "respuesta": 1927,
+      "min": 1900,
+      "max": 1950,
+      "paso": 1,
+      "dificultad": 3
+    },
+    {
+      "id": 91,
+      "categoriaId": 23,
+      "texto": "¿Cuántas torres tiene la Sagrada Familia en el diseño final previsto?",
+      "respuesta": 18,
+      "min": 5,
+      "max": 30,
+      "paso": 1,
+      "unidad": "torres",
+      "dificultad": 3
+    },
+    {
+      "id": 92,
+      "categoriaId": 24,
+      "texto": "¿Cuántos metros de altura tiene aproximadamente el Burj Khalifa?",
+      "respuesta": 828,
+      "min": 500,
+      "max": 1200,
+      "paso": 1,
+      "unidad": "m",
+      "dificultad": 2
+    },
+    {
+      "id": 93,
+      "categoriaId": 24,
+      "texto": "¿Cuántos pisos tiene aproximadamente el Empire State Building contando todos los niveles?",
+      "respuesta": 102,
+      "min": 50,
+      "max": 150,
+      "paso": 1,
+      "unidad": "pisos",
+      "dificultad": 2
+    },
+    {
+      "id": 94,
+      "categoriaId": 25,
+      "texto": "¿En qué año se patentó el teléfono de Alexander Graham Bell?",
+      "respuesta": 1876,
+      "min": 1800,
+      "max": 1950,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 95,
+      "categoriaId": 25,
+      "texto": "¿En qué año se inventó la World Wide Web?",
+      "respuesta": 1989,
+      "min": 1970,
+      "max": 2000,
+      "paso": 1,
+      "dificultad": 2
+    },
+    {
+      "id": 96,
+      "categoriaId": 25,
+      "texto": "¿En qué año se patentó la primera bombilla incandescente práctica de Edison?",
+      "respuesta": 1879,
+      "min": 1800,
+      "max": 1950,
+      "paso": 1,
+      "dificultad": 2
+    }
+  ]
+}
