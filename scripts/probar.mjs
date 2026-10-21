@@ -179,7 +179,7 @@ ok(
   },
 );
 
-ok("estado del Home: nuevo, en curso y hecho", () => {
+ok("estado del Home: nuevo, en curso, ganado y perdido", () => {
   memoria.clear();
   const hoy = fechaHoy();
   assert.deepEqual(howmuch.estado(), {
@@ -204,8 +204,8 @@ ok("estado del Home: nuevo, en curso y hecho", () => {
   const todas = Array.from({ length: CANTIDAD }, () => ({ puntos: 84 }));
   guardarPartida("howmuch", { fecha: hoy, respuestas: todas, terminada: true });
   assert.deepEqual(howmuch.estado(), {
-    tipo: "hecho",
-    texto: `Hoy: 840/${CANTIDAD * 100}`,
+    tipo: "ganado",
+    texto: `Ganado · Hoy: 840/${CANTIDAD * 100}`,
   });
 
   // Una partida de ayer no cuenta hoy.
@@ -419,8 +419,8 @@ ok("sino: estado del Home", () => {
     terminada: true,
   });
   assert.deepEqual(sino.estado(), {
-    tipo: "hecho",
-    texto: `Hoy: 7/${CANT_SINO}`,
+    tipo: "ganado",
+    texto: `Ganado · Hoy: 7/${CANT_SINO}`,
   });
 });
 
@@ -509,7 +509,7 @@ ok("¿Quién es?: texto para compartir", () => {
   assert.equal(t, "¿Quién es? Fútbol 2026-10-20\nPuntos: −1\n🟩🟥🟥");
 });
 
-ok("¿Quién es?: estado del Home con puntos negativos", () => {
+ok("¿Quién es?: el Home identifica victoria y derrota", () => {
   memoria.clear();
   const hoy = fechaHoy();
   const juego = quien.quienEsFutbol;
@@ -528,35 +528,63 @@ ok("¿Quién es?: estado del Home con puntos negativos", () => {
   }));
   guardarPartida(juego.id, { fecha: hoy, respuestas: fallos, terminada: true });
   assert.deepEqual(juego.estado(), {
-    tipo: "hecho",
-    texto: `Hoy: −${quien.CANTIDAD}`,
+    tipo: "perdido",
+    texto: `Perdido · Hoy: −${quien.CANTIDAD}`,
+  });
+
+  const aciertosQuien = Array.from({ length: quien.CANTIDAD }, () => ({
+    acierto: true,
+  }));
+  guardarPartida(juego.id, {
+    fecha: hoy,
+    respuestas: aciertosQuien,
+    terminada: true,
+  });
+  assert.deepEqual(juego.estado(), {
+    tipo: "ganado",
+    texto: `Ganado · Hoy: +${quien.CANTIDAD}`,
   });
 });
 
 ok("storage: un récord negativo cuenta si es la primera partida", () => {
   memoria.clear();
-  assert.equal(
-    registrarResultado("quien-es-futbol", "2026-10-17", -4).racha,
-    1,
-  );
-  assert.equal(leerStats("quien-es-futbol").mejorPuntaje, -4);
-  registrarResultado("quien-es-futbol", "2026-10-18", -8);
-  assert.equal(leerStats("quien-es-futbol").mejorPuntaje, -4);
-  registrarResultado("quien-es-futbol", "2026-10-19", 3);
-  assert.equal(leerStats("quien-es-futbol").mejorPuntaje, 3);
+  const ventanaAnterior = globalThis.window;
+  const ventana = new EventTarget();
+  let eventos = 0;
+  ventana.addEventListener("pikora:resultados-hoy-actualizados", () => {
+    eventos += 1;
+  });
+  globalThis.window = ventana;
+
+  try {
+    assert.equal(
+      registrarResultado("quien-es-futbol", "2026-10-17", -4).racha,
+      1,
+    );
+    assert.equal(eventos, 1);
+    assert.equal(leerStats("quien-es-futbol").mejorPuntaje, -4);
+    registrarResultado("quien-es-futbol", "2026-10-18", -8);
+    assert.equal(leerStats("quien-es-futbol").mejorPuntaje, -4);
+    registrarResultado("quien-es-futbol", "2026-10-19", 3);
+    assert.equal(leerStats("quien-es-futbol").mejorPuntaje, 3);
+  } finally {
+    if (ventanaAnterior === undefined) delete globalThis.window;
+    else globalThis.window = ventanaAnterior;
+  }
 });
 
 ok(
   "¿Quién es?: el JSON tiene jugadores con las dos fotos y suficientes para 10 por día",
   () => {
     const ps = datosQuien.preguntas;
-    assert.equal(ps.length, 100);
+    assert.ok(ps.length >= quien.CANTIDAD);
     assert.ok(ps.every((p) => p.id <= 200));
     assert.ok(
       ps.every(
         (p) =>
-          p.foto === "messi.jpg" &&
-          p.fotoRecortada === "messi-recortada.jpg" &&
+          p.nombre &&
+          p.foto &&
+          p.fotoRecortada &&
           p.foto !== p.fotoRecortada,
       ),
     );

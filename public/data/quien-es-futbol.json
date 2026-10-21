@@ -124,7 +124,7 @@
       "nombre": "Roberto Carlos",
       "alias": ["Roberto Carlos", "Roberto Carlos da Silva"],
       "fotoRecortada": "roberto-carlos-recortada.jpg",
-      "foto": "roberto-carlos.jpg"
+      "foto": "roberto_carlos.jpg"
     },
     {
       "id": 119,
@@ -459,7 +459,7 @@
       "id": 166,
       "nombre": "Phil Foden",
       "alias": ["Foden"],
-      "fotoRecortada": "foden-recortada.jpg",
+      "fotoRecortada": "fode-recortada.jpg",
       "foto": "foden.jpg"
     },
     {
@@ -558,7 +558,7 @@
       "nombre": "Robert Lewandowski",
       "alias": ["Lewandowski", "Lewy"],
       "fotoRecortada": "lewandowski-recortada.jpg",
-      "foto": "lewandowski.jpg"
+      "foto": "lewandowski.jpeg"
     },
     {
       "id": 182,

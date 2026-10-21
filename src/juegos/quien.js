@@ -59,9 +59,11 @@ export function crearQuienEs({
     estado() {
       const partida = leerPartida(id, fechaHoy());
       if (partida?.terminada) {
+        const puntos = puntosTotales(partida.respuestas);
+        const ganado = puntos >= CANTIDAD / 2;
         return {
-          tipo: "hecho",
-          texto: `Hoy: ${formatoPuntos(puntosTotales(partida.respuestas))}`,
+          tipo: ganado ? "ganado" : "perdido",
+          texto: `${ganado ? "Ganado" : "Perdido"} · Hoy: ${formatoPuntos(puntos)}`,
         };
       }
       if (partida && partida.respuestas.length > 0) {

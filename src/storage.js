@@ -85,5 +85,8 @@ export function registrarResultado(juegoId, fecha, puntajeTotal) {
   s.jugadas += 1;
 
   escribir(clave(juegoId, "stats"), s);
+  if (typeof window !== "undefined") {
+    window.dispatchEvent(new Event("pikora:resultados-hoy-actualizados"));
+  }
   return s;
 }
