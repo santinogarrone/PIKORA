@@ -1,0 +1,1041 @@
+{
+  "preguntas": [
+    {
+      "id": 101,
+      "nombre": "Lionel Messi",
+      "alias": ["Messi", "Leo Messi"],
+      "fotoRecortada": "messi-recortada.jpg",
+      "foto": "messi.jpg"
+    },
+    {
+      "id": 102,
+      "nombre": "Cristiano Ronaldo",
+      "alias": ["Cristiano", "CR7", "Ronaldo"],
+      "fotoRecortada": "cristiano-recortada.jpg",
+      "foto": "cristiano.jpg"
+    },
+    {
+      "id": 103,
+      "nombre": "Diego Maradona",
+      "alias": ["Maradona", "El Diego"],
+      "fotoRecortada": "maradona-recortada.jpg",
+      "foto": "maradona.jpg"
+    },
+    {
+      "id": 104,
+      "nombre": "Pelé",
+      "alias": ["Pele", "O Rei"],
+      "fotoRecortada": "pele-recortada.jpg",
+      "foto": "pele.jpg"
+    },
+    {
+      "id": 105,
+      "nombre": "Kylian Mbappé",
+      "alias": ["Mbappe", "Kylian"],
+      "fotoRecortada": "mbappe-recortada.jpg",
+      "foto": "mbappe.jpg"
+    },
+    {
+      "id": 106,
+      "nombre": "Neymar Jr.",
+      "alias": ["Neymar", "Ney"],
+      "fotoRecortada": "neymar-recortada.jpg",
+      "foto": "neymar.jpg"
+    },
+    {
+      "id": 107,
+      "nombre": "Ronaldinho",
+      "alias": ["Ronaldinho Gaucho", "Dinho"],
+      "fotoRecortada": "ronaldinho-recortada.jpg",
+      "foto": "ronaldinho.jpg"
+    },
+    {
+      "id": 108,
+      "nombre": "Ronaldo Nazário",
+      "alias": ["Ronaldo", "El Fenómeno", "Ronaldo Nazario"],
+      "fotoRecortada": "ronaldo-nazario-recortada.jpg",
+      "foto": "ronaldo-nazario.jpg"
+    },
+    {
+      "id": 109,
+      "nombre": "Zinedine Zidane",
+      "alias": ["Zidane", "Zizou"],
+      "fotoRecortada": "zidane-recortada.jpg",
+      "foto": "zidane.jpg"
+    },
+    {
+      "id": 110,
+      "nombre": "Johan Cruyff",
+      "alias": ["Cruyff"],
+      "fotoRecortada": "cruyff-recortada.jpg",
+      "foto": "cruyff.jpg"
+    },
+    {
+      "id": 111,
+      "nombre": "Alfredo Di Stéfano",
+      "alias": ["Di Stefano", "La Saeta Rubia"],
+      "fotoRecortada": "di-stefano-recortada.jpg",
+      "foto": "di-stefano.jpg"
+    },
+    {
+      "id": 112,
+      "nombre": "Franz Beckenbauer",
+      "alias": ["Beckenbauer", "El Kaiser"],
+      "fotoRecortada": "beckenbauer-recortada.jpg",
+      "foto": "beckenbauer.jpg"
+    },
+    {
+      "id": 113,
+      "nombre": "Michel Platini",
+      "alias": ["Platini"],
+      "fotoRecortada": "platini-recortada.jpg",
+      "foto": "platini.jpg"
+    },
+    {
+      "id": 114,
+      "nombre": "Marco van Basten",
+      "alias": ["Van Basten"],
+      "fotoRecortada": "van-basten-recortada.jpg",
+      "foto": "van-basten.jpg"
+    },
+    {
+      "id": 115,
+      "nombre": "Romário",
+      "alias": ["Romario"],
+      "fotoRecortada": "romario-recortada.jpg",
+      "foto": "romario.jpg"
+    },
+    {
+      "id": 116,
+      "nombre": "Zico",
+      "alias": ["Zico", "Arthur Antunes"],
+      "fotoRecortada": "zico-recortada.jpg",
+      "foto": "zico.jpg"
+    },
+    {
+      "id": 117,
+      "nombre": "Garrincha",
+      "alias": ["Mané Garrincha", "Garrincha"],
+      "fotoRecortada": "garrincha-recortada.jpg",
+      "foto": "garrincha.jpg"
+    },
+    {
+      "id": 118,
+      "nombre": "Roberto Carlos",
+      "alias": ["Roberto Carlos", "Roberto Carlos da Silva"],
+      "fotoRecortada": "roberto-carlos-recortada.jpg",
+      "foto": "roberto-carlos.jpg"
+    },
+    {
+      "id": 119,
+      "nombre": "Cafu",
+      "alias": ["Cafu", "Marcos Evangelista"],
+      "fotoRecortada": "cafu-recortada.jpg",
+      "foto": "cafu.jpg"
+    },
+    {
+      "id": 120,
+      "nombre": "Kaká",
+      "alias": ["Kaka", "Ricardo Kaká"],
+      "fotoRecortada": "kaka-recortada.jpg",
+      "foto": "kaka.jpg"
+    },
+    {
+      "id": 121,
+      "nombre": "Andrés Iniesta",
+      "alias": ["Iniesta", "Don Andrés"],
+      "fotoRecortada": "iniesta-recortada.jpg",
+      "foto": "iniesta.jpg"
+    },
+    {
+      "id": 122,
+      "nombre": "Xavi Hernández",
+      "alias": ["Xavi", "Xavi Hernandez"],
+      "fotoRecortada": "xavi-recortada.jpg",
+      "foto": "xavi.jpg"
+    },
+    {
+      "id": 123,
+      "nombre": "Sergio Ramos",
+      "alias": ["Ramos", "Sergio Ramos"],
+      "fotoRecortada": "sergio-ramos-recortada.jpg",
+      "foto": "sergio-ramos.jpg"
+    },
+    {
+      "id": 124,
+      "nombre": "Iker Casillas",
+      "alias": ["Casillas", "San Iker"],
+      "fotoRecortada": "casillas-recortada.jpg",
+      "foto": "casillas.jpg"
+    },
+    {
+      "id": 125,
+      "nombre": "Carles Puyol",
+      "alias": ["Puyol"],
+      "fotoRecortada": "puyol-recortada.jpg",
+      "foto": "puyol.jpg"
+    },
+    {
+      "id": 126,
+      "nombre": "David Beckham",
+      "alias": ["Beckham"],
+      "fotoRecortada": "beckham-recortada.jpg",
+      "foto": "beckham.jpg"
+    },
+    {
+      "id": 127,
+      "nombre": "Wayne Rooney",
+      "alias": ["Rooney"],
+      "fotoRecortada": "rooney-recortada.jpg",
+      "foto": "rooney.jpg"
+    },
+    {
+      "id": 128,
+      "nombre": "Thierry Henry",
+      "alias": ["Henry", "Titi Henry"],
+      "fotoRecortada": "henry-recortada.jpg",
+      "foto": "henry.jpg"
+    },
+    {
+      "id": 129,
+      "nombre": "Didier Drogba",
+      "alias": ["Drogba"],
+      "fotoRecortada": "drogba-recortada.jpg",
+      "foto": "drogba.jpg"
+    },
+    {
+      "id": 130,
+      "nombre": "Samuel Eto'o",
+      "alias": ["Eto'o", "Samuel Eto"],
+      "fotoRecortada": "etoo-recortada.jpg",
+      "foto": "etoo.jpg"
+    },
+    {
+      "id": 131,
+      "nombre": "Luis Suárez",
+      "alias": ["Suarez", "Lucho Suárez"],
+      "fotoRecortada": "suarez-recortada.jpg",
+      "foto": "suarez.jpg"
+    },
+    {
+      "id": 132,
+      "nombre": "Sergio Agüero",
+      "alias": ["Aguero", "Kun Agüero", "Kun"],
+      "fotoRecortada": "aguero-recortada.jpg",
+      "foto": "aguero.jpg"
+    },
+    {
+      "id": 133,
+      "nombre": "Ángel Di María",
+      "alias": ["Di María", "Di Maria", "Fideo"],
+      "fotoRecortada": "di-maria-recortada.jpg",
+      "foto": "di-maria.jpg"
+    },
+    {
+      "id": 134,
+      "nombre": "Julián Álvarez",
+      "alias": ["Julian Alvarez", "La Araña", "Araña"],
+      "fotoRecortada": "julian-alvarez-recortada.jpg",
+      "foto": "julian-alvarez.jpg"
+    },
+    {
+      "id": 135,
+      "nombre": "Lautaro Martínez",
+      "alias": ["Lautaro Martinez", "Lautaro"],
+      "fotoRecortada": "lautaro-recortada.jpg",
+      "foto": "lautaro.jpg"
+    },
+    {
+      "id": 136,
+      "nombre": "Emiliano Martínez",
+      "alias": ["Dibu Martínez", "Dibu", "Emi Martínez"],
+      "fotoRecortada": "dibu-martinez-recortada.jpg",
+      "foto": "dibu-martinez.jpg"
+    },
+    {
+      "id": 137,
+      "nombre": "Juan Román Riquelme",
+      "alias": ["Riquelme", "Román"],
+      "fotoRecortada": "riquelme-recortada.jpg",
+      "foto": "riquelme.jpg"
+    },
+    {
+      "id": 138,
+      "nombre": "Gabriel Batistuta",
+      "alias": ["Batistuta", "Batigol"],
+      "fotoRecortada": "batistuta-recortada.jpg",
+      "foto": "batistuta.jpg"
+    },
+    {
+      "id": 139,
+      "nombre": "Hernán Crespo",
+      "alias": ["Crespo"],
+      "fotoRecortada": "crespo-recortada.jpg",
+      "foto": "crespo.jpg"
+    },
+    {
+      "id": 140,
+      "nombre": "Carlos Tévez",
+      "alias": ["Tevez", "Carlitos", "Apache"],
+      "fotoRecortada": "tevez-recortada.jpg",
+      "foto": "tevez.jpg"
+    },
+    {
+      "id": 141,
+      "nombre": "Enzo Fernández",
+      "alias": ["Enzo Fernandez", "Enzo"],
+      "fotoRecortada": "enzo-fernandez-recortada.jpg",
+      "foto": "enzo-fernandez.jpg"
+    },
+    {
+      "id": 142,
+      "nombre": "Alexis Mac Allister",
+      "alias": ["Mac Allister", "Alexis"],
+      "fotoRecortada": "mac-allister-recortada.jpg",
+      "foto": "mac-allister.jpg"
+    },
+    {
+      "id": 143,
+      "nombre": "Rodrigo De Paul",
+      "alias": ["De Paul", "Rodri De Paul"],
+      "fotoRecortada": "de-paul-recortada.jpg",
+      "foto": "de-paul.jpg"
+    },
+    {
+      "id": 144,
+      "nombre": "Leandro Paredes",
+      "alias": ["Paredes"],
+      "fotoRecortada": "paredes-recortada.jpg",
+      "foto": "paredes.jpg"
+    },
+    {
+      "id": 145,
+      "nombre": "Lisandro Martínez",
+      "alias": ["Licha Martínez", "Licha"],
+      "fotoRecortada": "lisandro-martinez-recortada.jpg",
+      "foto": "lisandro-martinez.jpg"
+    },
+    {
+      "id": 146,
+      "nombre": "Nicolás Otamendi",
+      "alias": ["Otamendi"],
+      "fotoRecortada": "otamendi-recortada.jpg",
+      "foto": "otamendi.jpg"
+    },
+    {
+      "id": 147,
+      "nombre": "Gabriel Heinze",
+      "alias": ["Heinze", "Gringo Heinze"],
+      "fotoRecortada": "heinze-recortada.jpg",
+      "foto": "heinze.jpg"
+    },
+    {
+      "id": 148,
+      "nombre": "Pablo Aimar",
+      "alias": ["Aimar", "Payaso Aimar"],
+      "fotoRecortada": "aimar-recortada.jpg",
+      "foto": "aimar.jpg"
+    },
+    {
+      "id": 149,
+      "nombre": "Ariel Ortega",
+      "alias": ["Ortega", "Burrito Ortega"],
+      "fotoRecortada": "ortega-recortada.jpg",
+      "foto": "ortega.jpg"
+    },
+    {
+      "id": 150,
+      "nombre": "Enzo Francescoli",
+      "alias": ["Francescoli", "Príncipe"],
+      "fotoRecortada": "francescoli-recortada.jpg",
+      "foto": "francescoli.jpg"
+    },
+    {
+      "id": 151,
+      "nombre": "Gabriel Barbosa",
+      "alias": ["Gabigol", "Gabriel Barbosa"],
+      "fotoRecortada": "gabigol-recortada.jpg",
+      "foto": "gabigol.jpg"
+    },
+    {
+      "id": 152,
+      "nombre": "Vinícius Júnior",
+      "alias": ["Vinicius Junior", "Vini Jr", "Vini", "vinicius"],
+      "fotoRecortada": "vinicius-recortada.jpg",
+      "foto": "vinicius.jpg"
+    },
+    {
+      "id": 153,
+      "nombre": "Rodrygo",
+      "alias": ["Rodrygo Goes", "rodrygo"],
+      "fotoRecortada": "rodrygo-recortada.jpg",
+      "foto": "rodrygo.jpg"
+    },
+    {
+      "id": 154,
+      "nombre": "Endrick",
+      "alias": ["Endrick Felipe", "endrick"],
+      "fotoRecortada": "endrick-recortada.jpg",
+      "foto": "endrick.jpg"
+    },
+    {
+      "id": 155,
+      "nombre": "Rivaldo",
+      "alias": ["Rivaldo"],
+      "fotoRecortada": "rivaldo-recortada.jpg",
+      "foto": "rivaldo.jpg"
+    },
+    {
+      "id": 156,
+      "nombre": "Adriano",
+      "alias": ["Adriano Imperador", "El Emperador"],
+      "fotoRecortada": "adriano-recortada.jpg",
+      "foto": "adriano.jpg"
+    },
+    {
+      "id": 157,
+      "nombre": "Dani Alves",
+      "alias": ["Daniel Alves", "Dani Alves"],
+      "fotoRecortada": "dani-alves-recortada.jpg",
+      "foto": "dani-alves.jpg"
+    },
+    {
+      "id": 158,
+      "nombre": "Thiago Silva",
+      "alias": ["Thiago Silva"],
+      "fotoRecortada": "thiago-silva-recortada.jpg",
+      "foto": "thiago-silva.jpg"
+    },
+    {
+      "id": 159,
+      "nombre": "Alisson Becker",
+      "alias": ["Alisson"],
+      "fotoRecortada": "alisson-recortada.jpg",
+      "foto": "alisson.jpg"
+    },
+    {
+      "id": 160,
+      "nombre": "Ederson",
+      "alias": ["Ederson Moraes"],
+      "fotoRecortada": "ederson-recortada.jpg",
+      "foto": "ederson.jpg"
+    },
+    {
+      "id": 161,
+      "nombre": "Erling Haaland",
+      "alias": ["Haaland", "haland"],
+      "fotoRecortada": "haaland-recortada.jpg",
+      "foto": "haaland.jpg"
+    },
+    {
+      "id": 162,
+      "nombre": "Kevin De Bruyne",
+      "alias": ["De Bruyne", "KDB"],
+      "fotoRecortada": "de-bruyne-recortada.jpg",
+      "foto": "de-bruyne.jpg"
+    },
+    {
+      "id": 163,
+      "nombre": "Mohamed Salah",
+      "alias": ["Salah", "Mo Salah"],
+      "fotoRecortada": "salah-recortada.jpg",
+      "foto": "salah.jpg"
+    },
+    {
+      "id": 164,
+      "nombre": "Harry Kane",
+      "alias": ["Kane"],
+      "fotoRecortada": "kane-recortada.jpg",
+      "foto": "kane.jpg"
+    },
+    {
+      "id": 165,
+      "nombre": "Jude Bellingham",
+      "alias": ["Bellingham", "Jude"],
+      "fotoRecortada": "bellingham-recortada.jpg",
+      "foto": "bellingham.jpg"
+    },
+    {
+      "id": 166,
+      "nombre": "Phil Foden",
+      "alias": ["Foden"],
+      "fotoRecortada": "foden-recortada.jpg",
+      "foto": "foden.jpg"
+    },
+    {
+      "id": 167,
+      "nombre": "Bukayo Saka",
+      "alias": ["Saka"],
+      "fotoRecortada": "saka-recortada.jpg",
+      "foto": "saka.jpg"
+    },
+    {
+      "id": 168,
+      "nombre": "Cole Palmer",
+      "alias": ["Palmer", "Cold Palmer"],
+      "fotoRecortada": "palmer-recortada.jpg",
+      "foto": "palmer.jpg"
+    },
+    {
+      "id": 169,
+      "nombre": "Declan Rice",
+      "alias": ["Rice"],
+      "fotoRecortada": "rice-recortada.jpg",
+      "foto": "rice.jpg"
+    },
+    {
+      "id": 170,
+      "nombre": "Jack Grealish",
+      "alias": ["Grealish"],
+      "fotoRecortada": "grealish-recortada.jpg",
+      "foto": "grealish.jpg"
+    },
+    {
+      "id": 171,
+      "nombre": "Son Heung-min",
+      "alias": ["Son", "Heung-min Son"],
+      "fotoRecortada": "son-recortada.jpg",
+      "foto": "son.jpg"
+    },
+    {
+      "id": 172,
+      "nombre": "Park Ji-sung",
+      "alias": ["Park"],
+      "fotoRecortada": "park-recortada.jpg",
+      "foto": "park.jpg"
+    },
+    {
+      "id": 173,
+      "nombre": "Takefusa Kubo",
+      "alias": ["Kubo"],
+      "fotoRecortada": "kubo-recortada.jpg",
+      "foto": "kubo.jpg"
+    },
+    {
+      "id": 174,
+      "nombre": "Sadio Mané",
+      "alias": ["Sadio Mane", "Mané"],
+      "fotoRecortada": "mane-recortada.jpg",
+      "foto": "mane.jpg"
+    },
+    {
+      "id": 175,
+      "nombre": "Riyad Mahrez",
+      "alias": ["Mahrez"],
+      "fotoRecortada": "mahrez-recortada.jpg",
+      "foto": "mahrez.jpg"
+    },
+    {
+      "id": 176,
+      "nombre": "Victor Osimhen",
+      "alias": ["Osimhen"],
+      "fotoRecortada": "osimhen-recortada.jpg",
+      "foto": "osimhen.jpg"
+    },
+    {
+      "id": 178,
+      "nombre": "Yaya Touré",
+      "alias": ["Yaya Toure", "Touré"],
+      "fotoRecortada": "yaya-toure-recortada.jpg",
+      "foto": "yaya-toure.jpg"
+    },
+    {
+      "id": 179,
+      "nombre": "George Weah",
+      "alias": ["Weah"],
+      "fotoRecortada": "weah-recortada.jpg",
+      "foto": "weah.jpg"
+    },
+    {
+      "id": 180,
+      "nombre": "Jay-Jay Okocha",
+      "alias": ["Okocha", "Jay Jay"],
+      "fotoRecortada": "okocha-recortada.jpg",
+      "foto": "okocha.jpg"
+    },
+    {
+      "id": 181,
+      "nombre": "Robert Lewandowski",
+      "alias": ["Lewandowski", "Lewy"],
+      "fotoRecortada": "lewandowski-recortada.jpg",
+      "foto": "lewandowski.jpg"
+    },
+    {
+      "id": 182,
+      "nombre": "Luka Modrić",
+      "alias": ["Luka Modric", "Modrić"],
+      "fotoRecortada": "modric-recortada.jpg",
+      "foto": "modric.jpg"
+    },
+    {
+      "id": 183,
+      "nombre": "Toni Kroos",
+      "alias": ["Kroos"],
+      "fotoRecortada": "kroos-recortada.jpg",
+      "foto": "kroos.jpg"
+    },
+    {
+      "id": 184,
+      "nombre": "Karim Benzema",
+      "alias": ["Benzema", "KB9"],
+      "fotoRecortada": "benzema-recortada.jpg",
+      "foto": "benzema.jpg"
+    },
+    {
+      "id": 185,
+      "nombre": "Gareth Bale",
+      "alias": ["Bale"],
+      "fotoRecortada": "bale-recortada.jpg",
+      "foto": "bale.jpg"
+    },
+    {
+      "id": 186,
+      "nombre": "Eden Hazard",
+      "alias": ["Hazard"],
+      "fotoRecortada": "hazard-recortada.jpg",
+      "foto": "hazard.jpg"
+    },
+    {
+      "id": 187,
+      "nombre": "Thibaut Courtois",
+      "alias": ["Courtois"],
+      "fotoRecortada": "courtois-recortada.jpg",
+      "foto": "courtois.jpg"
+    },
+    {
+      "id": 188,
+      "nombre": "Virgil van Dijk",
+      "alias": ["Van Dijk", "Virgil"],
+      "fotoRecortada": "van-dijk-recortada.jpg",
+      "foto": "van-dijk.jpg"
+    },
+    {
+      "id": 190,
+      "nombre": "Sergio Busquets",
+      "alias": ["Busquets", "Busi"],
+      "fotoRecortada": "busquets-recortada.jpg",
+      "foto": "busquets.jpg"
+    },
+    {
+      "id": 191,
+      "nombre": "Gerard Piqué",
+      "alias": ["Pique", "Piqué"],
+      "fotoRecortada": "pique-recortada.jpg",
+      "foto": "pique.jpg"
+    },
+    {
+      "id": 192,
+      "nombre": "David Villa",
+      "alias": ["Villa", "El Guaje"],
+      "fotoRecortada": "david-villa-recortada.jpg",
+      "foto": "david-villa.jpg"
+    },
+    {
+      "id": 193,
+      "nombre": "Fernando Torres",
+      "alias": ["Torres", "El Niño Torres"],
+      "fotoRecortada": "torres-recortada.jpg",
+      "foto": "torres.jpg"
+    },
+    {
+      "id": 194,
+      "nombre": "Raúl González",
+      "alias": ["Raúl", "Raul"],
+      "fotoRecortada": "raul-recortada.jpg",
+      "foto": "raul.jpg"
+    },
+    {
+      "id": 195,
+      "nombre": "Fernando Hierro",
+      "alias": ["Hierro"],
+      "fotoRecortada": "hierro-recortada.jpg",
+      "foto": "hierro.jpg"
+    },
+    {
+      "id": 196,
+      "nombre": "Roberto Baggio",
+      "alias": ["Baggio", "Il Divin Codino"],
+      "fotoRecortada": "baggio-recortada.jpg",
+      "foto": "baggio.jpg"
+    },
+    {
+      "id": 197,
+      "nombre": "Francesco Totti",
+      "alias": ["Totti", "Il Capitano"],
+      "fotoRecortada": "totti-recortada.jpg",
+      "foto": "totti.jpg"
+    },
+    {
+      "id": 198,
+      "nombre": "Andrea Pirlo",
+      "alias": ["Pirlo", "Il Maestro"],
+      "fotoRecortada": "pirlo-recortada.jpg",
+      "foto": "pirlo.jpg"
+    },
+    {
+      "id": 199,
+      "nombre": "Gianluigi Buffon",
+      "alias": ["Buffon", "Gigi Buffon"],
+      "fotoRecortada": "buffon-recortada.jpg",
+      "foto": "buffon.jpg"
+    },
+    {
+      "id": 200,
+      "nombre": "Paolo Maldini",
+      "alias": ["Maldini"],
+      "fotoRecortada": "maldini-recortada.jpg",
+      "foto": "maldini.jpg"
+    }
+    
+    {
+      "id": 201,
+      "nombre": "Alessandro Del Piero",
+      "alias": ["Del Piero", "Alex Del Piero"],
+      "fotoRecortada": "del-piero-recortada.jpg",
+      "foto": "del-piero.jpg"
+    },
+    {
+      "id": 202,
+      "nombre": "Fabio Cannavaro",
+      "alias": ["Cannavaro"],
+      "fotoRecortada": "cannavaro-recortada.jpg",
+      "foto": "cannavaro.jpg"
+    },
+    {
+      "id": 203,
+      "nombre": "Gennaro Gattuso",
+      "alias": ["Gattuso"],
+      "fotoRecortada": "gattuso-recortada.jpg",
+      "foto": "gattuso.jpg"
+    },
+    {
+      "id": 204,
+      "nombre": "Ruud Gullit",
+      "alias": ["Gullit"],
+      "fotoRecortada": "gullit-recortada.jpg",
+      "foto": "gullit.jpg"
+    },
+    {
+      "id": 205,
+      "nombre": "Frank Rijkaard",
+      "alias": ["Rijkaard"],
+      "fotoRecortada": "rijkaard-recortada.jpg",
+      "foto": "rijkaard.jpg"
+    },
+    {
+      "id": 206,
+      "nombre": "Dennis Bergkamp",
+      "alias": ["Bergkamp"],
+      "fotoRecortada": "bergkamp-recortada.jpg",
+      "foto": "bergkamp.jpg"
+    },
+    {
+      "id": 207,
+      "nombre": "Patrick Vieira",
+      "alias": ["Vieira"],
+      "fotoRecortada": "vieira-recortada.jpg",
+      "foto": "vieira.jpg"
+    },
+    {
+      "id": 208,
+      "nombre": "Eric Cantona",
+      "alias": ["Cantona"],
+      "fotoRecortada": "cantona-recortada.jpg",
+      "foto": "cantona.jpg"
+    },
+    {
+      "id": 209,
+      "nombre": "Alan Shearer",
+      "alias": ["Shearer"],
+      "fotoRecortada": "shearer-recortada.jpg",
+      "foto": "shearer.jpg"
+    },
+    {
+      "id": 210,
+      "nombre": "Paul Scholes",
+      "alias": ["Scholes"],
+      "fotoRecortada": "scholes-recortada.jpg",
+      "foto": "scholes.jpg"
+    },
+    {
+      "id": 211,
+      "nombre": "Steven Gerrard",
+      "alias": ["Gerrard", "Stevie G"],
+      "fotoRecortada": "gerrard-recortada.jpg",
+      "foto": "gerrard.jpg"
+    },
+    {
+      "id": 212,
+      "nombre": "Frank Lampard",
+      "alias": ["Lampard"],
+      "fotoRecortada": "lampard-recortada.jpg",
+      "foto": "lampard.jpg"
+    },
+    {
+      "id": 213,
+      "nombre": "John Terry",
+      "alias": ["Terry"],
+      "fotoRecortada": "terry-recortada.jpg",
+      "foto": "terry.jpg"
+    },
+    {
+      "id": 214,
+      "nombre": "Rio Ferdinand",
+      "alias": ["Ferdinand"],
+      "fotoRecortada": "ferdinand-recortada.jpg",
+      "foto": "ferdinand.jpg"
+    },
+    {
+      "id": 215,
+      "nombre": "Petr Čech",
+      "alias": ["Petr Cech", "Cech"],
+      "fotoRecortada": "cech-recortada.jpg",
+      "foto": "cech.jpg"
+    },
+    {
+      "id": 216,
+      "nombre": "Didier Deschamps",
+      "alias": ["Deschamps"],
+      "fotoRecortada": "deschamps-recortada.jpg",
+      "foto": "deschamps.jpg"
+    },
+    {
+      "id": 217,
+      "nombre": "Patrick Kluivert",
+      "alias": ["Kluivert"],
+      "fotoRecortada": "kluivert-recortada.jpg",
+      "foto": "kluivert.jpg"
+    },
+    {
+      "id": 218,
+      "nombre": "George Best",
+      "alias": ["Best"],
+      "fotoRecortada": "george-best-recortada.jpg",
+      "foto": "george-best.jpg"
+    },
+    {
+      "id": 219,
+      "nombre": "Lev Yashin",
+      "alias": ["Yashin", "La Araña Negra"],
+      "fotoRecortada": "yashin-recortada.jpg",
+      "foto": "yashin.jpg"
+    },
+    {
+      "id": 220,
+      "nombre": "Ferenc Puskás",
+      "alias": ["Puskas", "Puskás"],
+      "fotoRecortada": "puskas-recortada.jpg",
+      "foto": "puskas.jpg"
+    },
+    {
+      "id": 221,
+      "nombre": "Gerd Müller",
+      "alias": ["Gerd Muller", "Der Bomber"],
+      "fotoRecortada": "gerd-muller-recortada.jpg",
+      "foto": "gerd-muller.jpg"
+    },
+    {
+      "id": 222,
+      "nombre": "Lothar Matthäus",
+      "alias": ["Matthaus", "Lothar Matthäus"],
+      "fotoRecortada": "matthaus-recortada.jpg",
+      "foto": "matthaus.jpg"
+    },
+    {
+      "id": 223,
+      "nombre": "Oliver Kahn",
+      "alias": ["Kahn", "Der Titan"],
+      "fotoRecortada": "kahn-recortada.jpg",
+      "foto": "kahn.jpg"
+    },
+    {
+      "id": 224,
+      "nombre": "Miroslav Klose",
+      "alias": ["Klose"],
+      "fotoRecortada": "klose-recortada.jpg",
+      "foto": "klose.jpg"
+    },
+    {
+      "id": 225,
+      "nombre": "Philipp Lahm",
+      "alias": ["Lahm"],
+      "fotoRecortada": "lahm-recortada.jpg",
+      "foto": "lahm.jpg"
+    },
+    {
+      "id": 226,
+      "nombre": "Bastian Schweinsteiger",
+      "alias": ["Schweinsteiger", "Schweini"],
+      "fotoRecortada": "schweinsteiger-recortada.jpg",
+      "foto": "schweinsteiger.jpg"
+    },
+    {
+      "id": 227,
+      "nombre": "Mesut Özil",
+      "alias": ["Ozil", "Özil"],
+      "fotoRecortada": "ozil-recortada.jpg",
+      "foto": "ozil.jpg"
+    },
+    {
+      "id": 228,
+      "nombre": "Mario Götze",
+      "alias": ["Gotze", "Götze"],
+      "fotoRecortada": "gotze-recortada.jpg",
+      "foto": "gotze.jpg"
+    },
+    {
+      "id": 229,
+      "nombre": "Arjen Robben",
+      "alias": ["Robben"],
+      "fotoRecortada": "robben-recortada.jpg",
+      "foto": "robben.jpg"
+    },
+    {
+      "id": 230,
+      "nombre": "Franck Ribéry",
+      "alias": ["Ribery"],
+      "fotoRecortada": "ribery-recortada.jpg",
+      "foto": "ribery.jpg"
+    },
+    {
+      "id": 231,
+      "nombre": "Zlatan Ibrahimović",
+      "alias": ["Ibrahimovic", "Zlatan"],
+      "fotoRecortada": "ibrahimovic-recortada.jpg",
+      "foto": "ibrahimovic.jpg"
+    },
+    {
+      "id": 232,
+      "nombre": "Henrik Larsson",
+      "alias": ["Larsson"],
+      "fotoRecortada": "larsson-recortada.jpg",
+      "foto": "larsson.jpg"
+    },
+    {
+      "id": 233,
+      "nombre": "George Weah",
+      "alias": ["George Weah"],
+      "fotoRecortada": "george-weah-recortada.jpg",
+      "foto": "george-weah.jpg"
+    },
+    {
+      "id": 234,
+      "nombre": "Hristo Stoichkov",
+      "alias": ["Stoichkov"],
+      "fotoRecortada": "stoichkov-recortada.jpg",
+      "foto": "stoichkov.jpg"
+    },
+    {
+      "id": 235,
+      "nombre": "Andriy Shevchenko",
+      "alias": ["Shevchenko", "Sheva"],
+      "fotoRecortada": "shevchenko-recortada.jpg",
+      "foto": "shevchenko.jpg"
+    },
+    {
+      "id": 236,
+      "nombre": "Samuel Kuffour",
+      "alias": ["Kuffour"],
+      "fotoRecortada": "kuffour-recortada.jpg",
+      "foto": "kuffour.jpg"
+    },
+    {
+      "id": 237,
+      "nombre": "Gheorghe Hagi",
+      "alias": ["Hagi", "El Maradona de los Cárpatos"],
+      "fotoRecortada": "hagi-recortada.jpg",
+      "foto": "hagi.jpg"
+    },
+    {
+      "id": 238,
+      "nombre": "Luis Figo",
+      "alias": ["Figo"],
+      "fotoRecortada": "figo-recortada.jpg",
+      "foto": "figo.jpg"
+    },
+    {
+      "id": 239,
+      "nombre": "Eusébio",
+      "alias": ["Eusebio", "La Pantera Negra"],
+      "fotoRecortada": "eusebio-recortada.jpg",
+      "foto": "eusebio.jpg"
+    },
+    {
+      "id": 240,
+      "nombre": "Deco",
+      "alias": ["Deco", "Anderson Deco"],
+      "fotoRecortada": "deco-recortada.jpg",
+      "foto": "deco.jpg"
+    },
+    {
+      "id": 241,
+      "nombre": "Bruno Fernandes",
+      "alias": ["Bruno Fernandes", "Bruno"],
+      "fotoRecortada": "bruno-fernandes-recortada.jpg",
+      "foto": "bruno-fernandes.jpg"
+    },
+    {
+      "id": 242,
+      "nombre": "Bernardo Silva",
+      "alias": ["Bernardo"],
+      "fotoRecortada": "bernardo-silva-recortada.jpg",
+      "foto": "bernardo-silva.jpg"
+    },
+    {
+      "id": 243,
+      "nombre": "Rúben Dias",
+      "alias": ["Ruben Dias"],
+      "fotoRecortada": "ruben-dias-recortada.jpg",
+      "foto": "ruben-dias.jpg"
+    },
+    {
+      "id": 244,
+      "nombre": "Antoine Griezmann",
+      "alias": ["Griezmann", "Grizou"],
+      "fotoRecortada": "griezmann-recortada.jpg",
+      "foto": "griezmann.jpg"
+    },
+    {
+      "id": 245,
+      "nombre": "Olivier Giroud",
+      "alias": ["Giroud"],
+      "fotoRecortada": "giroud-recortada.jpg",
+      "foto": "giroud.jpg"
+    },
+    {
+      "id": 246,
+      "nombre": "Paul Pogba",
+      "alias": ["Pogba"],
+      "fotoRecortada": "pogba-recortada.jpg",
+      "foto": "pogba.jpg"
+    },
+    {
+      "id": 247,
+      "nombre": "N'Golo Kanté",
+      "alias": ["Kante", "Kanté"],
+      "fotoRecortada": "kante-recortada.jpg",
+      "foto": "kante.jpg"
+    },
+    {
+      "id": 248,
+      "nombre": "Lilian Thuram",
+      "alias": ["Thuram"],
+      "fotoRecortada": "thuram-recortada.jpg",
+      "foto": "thuram.jpg"
+    },
+    {
+      "id": 249,
+      "nombre": "Laurent Blanc",
+      "alias": ["Blanc", "Le Président"],
+      "fotoRecortada": "blanc-recortada.jpg",
+      "foto": "blanc.jpg"
+    },
+    {
+      "id": 250,
+      "nombre": "David Trezeguet",
+      "alias": ["Trezeguet", "Trezegol"],
+      "fotoRecortada": "trezeguet-recortada.jpg",
+      "foto": "trezeguet.jpg"
+    }
+  ]
+}
