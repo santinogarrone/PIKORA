@@ -628,6 +628,24 @@ dialog.reglas::backdrop {
   font-weight: 550;
 }
 
+.foto {
+  width: min(100%, 360px);
+  aspect-ratio: 1;
+  margin: 18px auto;
+  overflow: hidden;
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  background: var(--superficie-baja);
+}
+
+.foto img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .reto-meta {
   display: flex;
   min-height: 40px;
