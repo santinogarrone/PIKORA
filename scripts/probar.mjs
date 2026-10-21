@@ -281,6 +281,36 @@ ok(
 );
 
 ok(
+  "prepararPartida: actualiza fotos de una copia del juego que cambió",
+  () => {
+    const antiguas = Array.from({ length: CANTIDAD }, (_, i) => ({
+      id: i + 1,
+      foto: "roberto-carlos.jpg",
+      fotoRecortada: "roberto-carlos-recortada.jpg",
+    }));
+    const actuales = antiguas.map((pregunta) => ({
+      ...pregunta,
+      foto: "roberto_carlos.jpg",
+    }));
+    const guardada = {
+      fecha: "2026-10-17",
+      preguntas: antiguas,
+      respuestas: [{ id: 1, acierto: false }],
+      terminada: false,
+    };
+
+    const { partida, preguntas } = prepararPartida(
+      actuales,
+      "2026-10-17",
+      guardada,
+      CANTIDAD,
+    );
+    assert.equal(partida.respuestas.length, 0);
+    assert.ok(preguntas.every((pregunta) => pregunta.foto === "roberto_carlos.jpg"));
+  },
+);
+
+ok(
   "prepararPartida: partida antigua sin copia recibe las preguntas de hoy y conserva sus respuestas",
   () => {
     const antigua = {
