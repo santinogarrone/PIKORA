@@ -8,7 +8,6 @@ import {
 } from "../src/fecha.js";
 import { preguntasDelDia } from "../src/semilla.js";
 import { puntosPregunta, emojiPuntos, textoCompartir } from "../src/puntos.js";
-import { parseJsonc } from "../src/jsonc.js";
 
 // localStorage de mentira para probar storage.js
 const memoria = new Map();
@@ -345,7 +344,7 @@ const {
 } = await import("../src/juegos/sino.js");
 const { sinoFutbol } = await import("../src/juegos/sino.js");
 const leerJson = async (nombre) =>
-  parseJsonc(
+  JSON.parse(
     (await import("node:fs")).readFileSync(
       new URL(`../public/data/${nombre}.json`, import.meta.url),
       "utf8",
@@ -464,12 +463,6 @@ ok("sino-futbol: el texto para compartir lleva el nombre de la versión", () => 
 const { normalizar, coincide, distancia } = await import("../src/nombres.js");
 const quien = await import("../src/juegos/quien.js");
 const datosQuien = await leerJson("quien-es-futbol");
-
-ok("JSONC: ignora comentarios de bloque y comas finales", () => {
-  assert.deepEqual(parseJsonc('{"visible":1,/* {"oculto":2} */}'), {
-    visible: 1,
-  });
-});
 
 ok("nombres: ignora mayúsculas, tildes y signos", () => {
   assert.equal(normalizar("  Kylian  MBAPPÉ! "), "kylian mbappe");

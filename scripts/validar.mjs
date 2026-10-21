@@ -1,7 +1,6 @@
 // Revisa los JSON de public/data/. Uso: npm run validar
 // Cada juego tiene su propia función de revisión, porque sus datos son distintos.
 import { readFileSync, existsSync } from "node:fs";
-import { parseJsonc } from "../src/jsonc.js";
 
 const comunes = (p, ids, errores) => {
   if (!Number.isInteger(p.id)) errores.push("id no es un entero");
@@ -125,7 +124,7 @@ for (const { juego, tipo, carpetaFotos } of ARCHIVOS) {
   const crearRevisor = REVISORES[tipo];
   let datos;
   try {
-    datos = parseJsonc(
+    datos = JSON.parse(
       readFileSync(
         new URL(`../public/data/${juego}.json`, import.meta.url),
         "utf8",

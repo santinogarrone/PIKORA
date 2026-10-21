@@ -1,13 +1,3 @@
-// Juego "¿Quién es?": se ve una foto recortada, sin la cara, y hay que escribir el nombre.
-// Acertar suma 1 punto y fallar resta 1. Al responder se enseña la foto entera.
-//
-// Datos: public/data/<id>.json   Fotos: public/fotos/<id>/<archivo>
-// Cada elemento: { id, nombre, alias: [...], fotoRecortada, foto, pista? }
-//   fotoRecortada: la que se ve al adivinar (sin la cara). foto: la entera, que se ve al responder.
-//
-// crearQuienEs() permite hacer varias versiones (fútbol, tenis...): cada una con su id,
-// su JSON, su carpeta de fotos, su tarjeta y sus estadísticas.
-
 import { fechaHoy } from "../fecha.js";
 import { cargarPreguntas } from "../preguntas.js";
 import { prepararPartida as preparar } from "../partida.js";
@@ -30,15 +20,12 @@ export const prepararPartida = (todas, fecha, guardada) =>
 export const aciertos = (respuestas) =>
   respuestas.filter((r) => r.acierto).length;
 
-/** +1 por acierto, −1 por fallo. Puede ser negativo. */
 export const puntosTotales = (respuestas) =>
   aciertos(respuestas) - (respuestas.length - aciertos(respuestas));
 
-/** 4 -> "+4", 0 -> "0", -3 -> "−3" */
 export const formatoPuntos = (n) =>
   n > 0 ? `+${n}` : n < 0 ? `−${Math.abs(n)}` : "0";
 
-/** Texto para compartir: una casilla verde por acierto y roja por fallo. */
 export function textoCompartir({ nombre, fecha, respuestas }) {
   const cuadros = respuestas.map((r) => (r.acierto ? "🟩" : "🟥")).join("");
   return `${nombre} ${fecha}\nPuntos: ${formatoPuntos(puntosTotales(respuestas))}\n${cuadros}`;
@@ -48,9 +35,7 @@ const urlFoto = (carpeta, archivo) =>
   `${import.meta.env.BASE_URL}${carpeta}/${archivo}`;
 
 /**
- * Crea una versión de ¿Quién es?
  * @param {{ id: string, nombre: string, descripcion: string, carpetaFotos?: string }} config
- *   `id` es también el nombre del JSON (public/data/<id>.json).
  */
 export function crearQuienEs({
   id,
@@ -71,7 +56,6 @@ export function crearQuienEs({
       "Al terminar puedes copiar tu resultado para compartirlo. Jugar días seguidos suma racha.",
     ],
 
-    /** Estado de hoy para la tarjeta del Home. Lee solo localStorage. */
     estado() {
       const partida = leerPartida(id, fechaHoy());
       if (partida?.terminada) {
@@ -89,7 +73,6 @@ export function crearQuienEs({
       return { tipo: "nuevo", texto: "Reto de hoy disponible" };
     },
 
-    /** Pinta el juego en `contenedor`. Devuelve la función que lo limpia al salir. */
     async montar(contenedor) {
       contenedor.textContent = "Cargando...";
       try {
@@ -125,8 +108,6 @@ export const quienEsFutbol = crearQuienEs({
   descripcion: `Adivina el futbolista por una foto sin cara. +1 si aciertas, −1 si fallas.`,
   carpetaFotos: "fotos-quien-es",
 });
-
-// ---------- Pantallas ----------
 
 function jugar({
   id,
@@ -225,8 +206,7 @@ function jugar({
 
     precargar(urlFoto(carpetaFotos, p.foto)); // la entera, para que al responder aparezca al instante
     const siguiente = preguntas[indice + 1];
-    if (siguiente)
-      precargar(urlFoto(carpetaFotos, siguiente.fotoRecortada));
+    if (siguiente) precargar(urlFoto(carpetaFotos, siguiente.fotoRecortada));
   }
 
   function pantallaRevelar(p, dijo, acierto) {
