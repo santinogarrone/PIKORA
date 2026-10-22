@@ -40,7 +40,11 @@ export function progresoBloque(indice, total, etiqueta = "Pregunta") {
     ),
     h(
       "div",
-      { class: "progreso-track", "aria-hidden": "true" },
+      {
+        class: "progreso-track",
+        "aria-hidden": "true",
+        style: `grid-template-columns: repeat(${total}, minmax(0, 1fr))`,
+      },
       ...Array.from({ length: total }, (_, i) =>
         h("span", {
           class: [

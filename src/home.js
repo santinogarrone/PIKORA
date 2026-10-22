@@ -9,7 +9,7 @@ const preguntasFrecuentes = [
   {
     pregunta: "¿Cómo se juega?",
     respuesta:
-      "Elegí un reto en la portada y seguí sus instrucciones. Hay desafíos de estimar cifras y de responder si una afirmación es verdadera o falsa.",
+      "Elegí un reto en la portada y seguí sus instrucciones. Hay desafíos de estimar cifras, responder sobre fútbol y reconocer goles históricos.",
   },
   {
     pregunta: "¿Cuándo se renuevan los retos?",

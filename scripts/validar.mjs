@@ -103,6 +103,43 @@ const REVISORES = {
       return errores;
     };
   },
+
+  "adivina-el-gol"() {
+    return (p, ids) => {
+      const errores = [];
+      comunes(p, ids, errores);
+      if (
+        typeof p.imagen !== "string" ||
+        !p.imagen.trim() ||
+        /[\\/]/.test(p.imagen) ||
+        p.imagen === "." ||
+        p.imagen === ".."
+      ) {
+        errores.push("imagen debe ser un nombre de archivo dentro de public/goles");
+      } else if (
+        !existsSync(new URL(`../public/goles/${p.imagen}`, import.meta.url))
+      ) {
+        errores.push(`no existe public/goles/${p.imagen}`);
+      }
+      if (
+        !Array.isArray(p.opciones) ||
+        p.opciones.length !== 4 ||
+        !p.opciones.every((opcion) => typeof opcion === "string" && opcion.trim())
+      ) {
+        errores.push("opciones debe contener exactamente 4 textos no vacíos");
+      } else {
+        if (new Set(p.opciones).size !== 4)
+          errores.push("opciones no puede tener textos repetidos");
+        if (
+          typeof p.respuesta !== "string" ||
+          p.opciones.filter((opcion) => opcion === p.respuesta).length !== 1
+        ) {
+          errores.push("respuesta debe coincidir exactamente con una opción");
+        }
+      }
+      return errores;
+    };
+  },
 };
 
 // Un archivo por juego. `tipo` elige qué revisor usar: varias versiones de un juego
@@ -116,11 +153,23 @@ const ARCHIVOS = [
     tipo: "quien",
     carpetaFotos: "fotos-quien-es",
   },
+  {
+    juego: "adivina-el-gol",
+    tipo: "adivina-el-gol",
+    permitirVacio: true,
+    minimoPreguntas: 3,
+  },
 ];
 
 let fallos = 0;
 
-for (const { juego, tipo, carpetaFotos } of ARCHIVOS) {
+for (const {
+  juego,
+  tipo,
+  carpetaFotos,
+  permitirVacio = false,
+  minimoPreguntas = 10,
+} of ARCHIVOS) {
   const crearRevisor = REVISORES[tipo];
   let datos;
   try {
@@ -148,10 +197,13 @@ for (const { juego, tipo, carpetaFotos } of ARCHIVOS) {
       console.log(`${juego} #${p.id}: ${errores.join(", ")}`);
     }
   }
-  if (preguntas.length < 10) {
+  if (
+    preguntas.length < minimoPreguntas &&
+    !(permitirVacio && preguntas.length === 0)
+  ) {
     malas++;
     console.log(
-      `${juego}: hacen falta al menos 10 elementos (hay ${preguntas.length}).`,
+      `${juego}: hacen falta al menos ${minimoPreguntas} elementos (hay ${preguntas.length}).`,
     );
   }
 

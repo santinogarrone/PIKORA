@@ -6,5 +6,6 @@
 import { howmuch } from "./howmuch.js";
 import { sino, sinoFutbol } from "./sino.js";
 import { quienEsFutbol } from "./quien.js";
+import { adivinaElGol } from "./adivina-el-gol.js";
 
-export const JUEGOS = [howmuch, sino, sinoFutbol, quienEsFutbol];
+export const JUEGOS = [howmuch, sino, sinoFutbol, quienEsFutbol, adivinaElGol];

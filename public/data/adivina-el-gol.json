@@ -1,0 +1,268 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "imagen": "gol-maradona.jpg",
+      "opciones": [
+        "Maradona contra Inglaterra · Mundial 1986 - Segundo gol",
+        "Maradona contra Inglaterra · Mundial 1986 - Primer gol",
+        "Maradona contra Bélgica · Mundial 1986 - Semifinal",
+        "Maradona contra Grecia · Mundial 1994"
+      ],
+      "respuesta": "Maradona contra Inglaterra · Mundial 1986 - Segundo gol"
+    },
+    {
+      "id": 2,
+      "imagen": "mano-dios-maradona-1986.jpg",
+      "opciones": [
+        "Maradona contra Inglaterra · Mundial 1986 - Segundo gol",
+        "Maradona contra Inglaterra · Mundial 1986 - Primer gol",
+        "Maradona contra Bélgica · Mundial 1986 - Segundo gol",
+        "Maradona contra Grecia · Mundial 1994"
+      ],
+      "respuesta": "Maradona contra Inglaterra · Mundial 1986 - Primer gol"
+    },
+    {
+      "id": 3,
+      "imagen": "maradona-belgica-1986.jpg",
+      "opciones": [
+        "Maradona contra Bélgica · Mundial 1986 - Segundo gol",
+        "Maradona contra Bélgica · Mundial 1986 - Primer gol",
+        "Maradona contra Bélgica · Mundial 1978 - Tercer gol",
+        "Maradona contra Belgica · Mundial 1994"
+      ],
+      "respuesta": "Maradona contra Bélgica · Mundial 1986 - Primer gol"
+    },
+    {
+      "id": 4,
+      "imagen": "messi-getafe-2007.jpg",
+      "opciones": [
+        "Messi contra Getafe · Copa del Rey 2007 - Segundo gol",
+        "Messi contra Real Madrid · Champions League 2011 - Segundo gol",
+        "Messi contra Getafe · Copa del Rey 2007 - Primer gol",
+        "Messi contra Getafe · Liga 2007"
+      ],
+      "respuesta": "Messi contra Getafe · Copa del Rey 2007 - Segundo gol"
+    },
+    {
+      "id": 5,
+      "imagen": "messi-realmadrid-2011.jpg",
+      "opciones": [
+        "Messi contra Getafe · Copa del Rey 2007 - Segundo gol",
+        "Messi contra Real Madrid · Champions League 2011 - Segundo gol",
+        "Messi contra Real Madrid · Liga española 2011",
+        "Messi contra Real Madrid · Champions League 2009 - Segundo gol"
+      ],
+      "respuesta": "Messi contra Real Madrid · Champions League 2011 - Segundo gol"
+    },
+    {
+      "id": 6,
+      "imagen": "messi-manchester-2009.jpg",
+      "opciones": [
+        "Messi contra Manchester United · Champions League 2011",
+        "Messi contra Manchester United · Champions League 2009 - Segundo gol",
+        "Messi contra Manchester United · Champions League 2009 - Primer gol",
+        "Messi contra Athletic Club · Copa del Rey 2015 - Segundo gol"
+      ],
+      "respuesta": "Messi contra Manchester United · Champions League 2009 - Segundo gol"
+    },
+    {
+      "id": 7,
+      "imagen": "messi-athletic-2015.jpg",
+      "opciones": [
+        "Messi contra Athletic Club · Copa del Rey 2017 - Segundo gol",
+        "Messi contra Athletic Club · Copa del Rey 2015 - Segundo gol",
+        "Messi contra Athletic Club · Liga española 2017- Primer gol",
+        "Messi contra Atletico de Madrid · Liga española 2015"
+      ],
+      "respuesta": "Messi contra Athletic Club · Copa del Rey 2015 - Segundo gol"
+    },
+    {
+      "id": 8,
+      "imagen": "mesi-mexico-2022.jpg",
+      "opciones": [
+        "Messi contra México · Mundial 2014",
+        "Messi contra México · Mundial 2022 - Primer gol",
+        "Messi contra México · Mundial 2022 - Segundo gol",
+        "Messi contra Irán · Mundial 2022"
+      ],
+      "respuesta": "Messi contra México · Mundial 2022 - Primer gol"
+    },
+    {
+      "id": 9,
+      "imagen": "cristiano-juventus-chilena-2018.jpg",
+      "opciones": [
+        "Cristiano Ronaldo contra Juventus · Champions League 2018",
+        "Cristiano Ronaldo contra Juventus · Champions League 2019 - Primer gol",
+        "Cristiano Ronaldo contra Juventus · Champions League 2019 - Segundo gol",
+        "Cristiano Ronaldo contra Juventus · Champions League 2017"
+      ],
+      "respuesta": "Cristiano Ronaldo contra Juventus · Champions League 2018"
+    },
+    {
+      "id": 10,
+      "imagen": "cristiano-espana-2018.jpg",
+      "opciones": [
+        "Cristiano Ronaldo contra España · Mundial 2022",
+        "Cristiano Ronaldo contra España · Mundial 2018",
+        "Cristiano Ronaldo contra España · Eurocopa 2016 - Primer gol",
+        "Cristiano Ronaldo contra España · Eurocopa 2016 - Segundo gol"
+      ],
+      "respuesta": "Cristiano Ronaldo contra España · Mundial 2018"
+    },
+    {
+      "id": 11,
+      "imagen": "rooney-city-2011.jpg",
+      "opciones": [
+        "Wayne Rooney contra Manchester City · Premier League 2012",
+        "Wayne Rooney contra Manchester City · Premier League 2011",
+        "Wayne Rooney contra Manchester City · Premier League 2013",
+        "Wayne Rooney contra Manchester City · Premier League 2010"
+      ],
+      "respuesta": "Wayne Rooney contra Manchester City · Premier League 2011"
+    },
+    {
+      "id": 12,
+      "imagen": "zidane-volea-2002.jpg",
+      "opciones": [
+        "Zidane contra Bayern Munich · Champions League 2002",
+        "Zidane contra Bayer Leverkusen · Champions League 2006",
+        "Zidane contra Bayer Leverkusen · Champions League 2000",
+        "Zidane contra Bayer Leverkusen · Champions League 2002"
+      ],
+      "respuesta": "Zidane contra Bayer Leverkusen · Champions League 2002"
+    },
+    {
+      "id": 13,
+      "imagen": "ronaldo-alemania-final-2002.jpg",
+      "opciones": [
+        "Ronaldo Nazário contra Alemania · Mundial 2006",
+        "Ronaldo Nazário contra Alemania · Mundial 2000",
+        "Ronaldo Nazário contra Alemania · Mundial 2002 - Segundo gol",
+        "Ronaldo Nazário contra Alemania · Mundial 2002 - Primer gol"
+      ],
+      "respuesta": "Ronaldo Nazário contra Alemania · Mundial 2002 - Primer gol"
+    },
+    {
+      "id": 14,
+      "imagen": "ronaldinho-inglaterra-2002.jpg",
+      "opciones": [
+        "Ronaldinho contra Inglaterra · Mundial 2002",
+        "Ronaldinho contra Inglaterra · Mundial 2006",
+        "Ronaldinho contra Inglaterra · Mundial 1996",
+        "Ronaldinho contra Inglaterra · Mundial 2000"
+      ],
+      "respuesta": "Ronaldinho contra Inglaterra · Mundial 2002"
+    },
+    {
+      "id": 15,
+      "imagen": "pele-suecia-1958.jpg",
+      "opciones": [
+        "Pelé contra Suecia · Mundial 1962",
+        "Pelé contra Suecia · Mundial 1958",
+        "Pelé contra Suecia · Mundial 1966",
+        "Pelé contra Italia · Mundial 1970"
+      ],
+      "respuesta": "Pelé contra Suecia · Mundial 1958"
+    },
+    {
+      "id": 17,
+      "imagen": "van-persie-espana-2014.jpg",
+      "opciones": [
+        "Robin van Persie contra España · Mundial 2014 - Primer gol holandes",
+        "Robin van Persie contra España · Premier League 2013",
+        "Robin van Persie contra España · Mundial 2014",
+        "Robin van Persie contra España · Premier League - Segundo gol holandes"
+      ],
+      "respuesta": "Robin van Persie contra España · Mundial 2014 - Primer gol holandes"
+    },
+    {
+      "id": 18,
+      "imagen": "james-uruguay-2014.jpg",
+      "opciones": [
+        "James Rodríguez contra Uruguay · Mundial 2014 - Fase de grupos",
+        "James Rodríguez contra Uruguay · Mundial 2014 - cuartos de final",
+        "James Rodríguez contra Uruguay · Mundial 2014 - octavos de final",
+        "James Rodríguez contra Brasil · Mundial 2014 "
+      ],
+      "respuesta": "James Rodríguez contra Uruguay · Mundial 2014 - octavos de final"
+    },
+    {
+      "id": 19,
+      "imagen": "iniesta-holanda-2010.jpg",
+      "opciones": [
+        "Andrés Iniesta contra Países Bajos · Mundial 2010 - Semi Final",
+        "Andrés Iniesta contra Países Bajos · Mundial 2010 - Final",
+        "Andrés Iniesta contra Países Bajos · Eurocopa 2012",
+        "Andrés Iniesta contra Francia · Mundial 2010"
+      ],
+      "respuesta": "Andrés Iniesta contra Países Bajos · Mundial 2010 - Final"
+    },
+    {
+      "id": 20,
+      "imagen": "van-basten-urss-1988.jpg",
+      "opciones": [
+        "Marco van Basten contra Unión Soviética · Eurocopa 1988",
+        "Marco van Basten contra Unión Soviética · Eurocopa 1992",
+        "Marco van Basten contra Inglaterra · Eurocopa 1988",
+        "Marco van Basten contra España · Eurocopa 1988"
+      ],
+      "respuesta": "Marco van Basten contra Unión Soviética · Eurocopa 1988"
+    },
+    {
+      "id": 21,
+      "imagen": "roberto-carlos-francia-1997.jpg",
+      "opciones": [
+        "Roberto Carlos contra Francia · Torneo de Francia 1997",
+        "Roberto Carlos contra Francia · Mundial 1994",
+        "Roberto Carlos contra Francia · Mundial 1998",
+        "Roberto Carlos contra Francia · Mundial 2002"
+      ],
+      "respuesta": "Roberto Carlos contra Francia · Torneo de Francia 1997"
+    },
+    {
+      "id": 22,
+      "imagen": "ibrahimovic-inglaterra-2012.jpg",
+      "opciones": [
+        "Zlatan Ibrahimović contra Inglaterra · Amistoso 2012",
+        "Zlatan Ibrahimović contra Inglaterra · Amistoso 2010",
+        "Zlatan Ibrahimović contra Inglaterra · Eurocopa 2004",
+        "Zlatan Ibrahimović contra Italia · Eurocopa 2004"
+      ],
+      "respuesta": "Zlatan Ibrahimović contra Inglaterra · Amistoso 2012"
+    },
+    {
+      "id": 23,
+      "imagen": "bale-liverpool-chilena-2018.jpg",
+      "opciones": [
+        "Gareth Bale contra Liverpool · Champions League 2018",
+        "Gareth Bale contra Liverpool · Champions League 2014",
+        "Gareth Bale contra Liverpool · Champions League 2010",
+        "Gareth Bale contra Juventus · Amistoso 2018"
+      ],
+      "respuesta": "Gareth Bale contra Liverpool · Champions League 2018"
+    },
+    {
+      "id": 24,
+      "imagen": "rivaldo-valencia-2001.jpg",
+      "opciones": [
+        "Rivaldo contra Valencia · Liga española 2001",
+        "Rivaldo contra Valencia · Liga española 2002",
+        "Rivaldo contra Valencia · Liga española 2000",
+        "Rivaldo contra Real Madrid · Liga española 2001"
+      ],
+      "respuesta": "Rivaldo contra Valencia · Liga española 2001"
+    },
+    {
+      "id": 25,
+      "imagen": "di-maria-francia-2022.jpg",
+      "opciones": [
+        "Ángel Di María contra Francia · Mundial 2022 - Segundo gol de Argentina",
+        "Ángel Di María contra Francia · Mundial 2022 - Primer gol de Argentina",
+        "Ángel Di María contra Francia · Juegos Olímpicos 2008",
+        "Ángel Di María contra Francia · Mundial 2014"
+      ],
+      "respuesta": "Ángel Di María contra Francia · Mundial 2022 - Segundo gol de Argentina"
+    }
+  ]
+}

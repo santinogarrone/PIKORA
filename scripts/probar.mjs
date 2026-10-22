@@ -8,6 +8,12 @@ import {
 } from "../src/fecha.js";
 import { preguntasDelDia } from "../src/semilla.js";
 import { puntosPregunta, emojiPuntos, textoCompartir } from "../src/puntos.js";
+import {
+  aciertos as aciertosGol,
+  CANTIDAD as cantidadGoles,
+  prepararPartida as prepararPartidaGol,
+  textoCompartir as textoCompartirGol,
+} from "../src/juegos/adivina-el-gol.js";
 
 // localStorage de mentira para probar storage.js
 const memoria = new Map();
@@ -114,6 +120,48 @@ ok("textoCompartir", () => {
     resultados: [{ puntos: 100 }, { puntos: 10 }],
   });
   assert.equal(t, "HowMuch 2026-10-17\n110/200\n🟩🟥");
+});
+
+ok("Adivina el gol: cuenta aciertos y genera el resultado para compartir", () => {
+  const respuestas = [
+    { acierto: true },
+    { acierto: false },
+    { acierto: true },
+  ];
+  assert.equal(aciertosGol(respuestas), 2);
+  assert.equal(
+    textoCompartirGol({ fecha: "2026-10-17", respuestas }),
+    "Adivina el gol 2026-10-17\n2/3\n🟩🟥🟩",
+  );
+});
+
+ok("Adivina el gol: prepara tres preguntas del día y guarda su copia", () => {
+  assert.equal(cantidadGoles, 3);
+  const goles = Array.from({ length: 6 }, (_, i) => ({
+    id: i + 1,
+    imagen: `gol-${i + 1}.jpg`,
+    opciones: ["A", "B", "C", "D"],
+    respuesta: "A",
+  }));
+  const { partida, preguntas } = prepararPartidaGol(
+    goles,
+    "2026-10-17",
+    null,
+  );
+  assert.equal(preguntas.length, 3);
+  assert.deepEqual(partida.preguntas, preguntas);
+  assert.equal(partida.respuestas.length, 0);
+});
+
+ok("Adivina el gol: no inicia el reto con menos de tres imágenes", () => {
+  const goles = Array.from({ length: 2 }, (_, i) => ({
+    id: i + 1,
+    imagen: `gol-${i + 1}.jpg`,
+  }));
+  assert.throws(
+    () => prepararPartidaGol(goles, "2026-10-17", null),
+    /al menos 3/,
+  );
 });
 
 // ---- storage ----
