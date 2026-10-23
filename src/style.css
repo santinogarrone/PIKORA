@@ -256,8 +256,8 @@ input {
 
 .juegos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 18px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -330,12 +330,12 @@ input {
   position: relative;
   display: flex;
   width: 100%;
-  min-height: 190px;
+  min-height: 420px;
   height: 100%;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 22px;
+  align-items: stretch;
+  gap: 0;
+  padding: 0;
   overflow: hidden;
   border: 1px solid var(--borde);
   border-radius: 20px;
@@ -348,6 +348,23 @@ input {
     box-shadow 160ms ease,
     transform 160ms ease,
     background-color 160ms ease;
+}
+
+.juego-imagen {
+  display: block;
+  width: 100%;
+  height: 220px;
+  flex: 0 0 220px;
+  object-fit: cover;
+}
+
+.juego-contenido {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 22px 22px;
 }
 
 .juego::after {
@@ -379,7 +396,7 @@ input {
 
 .resultado-juego {
   position: absolute;
-  top: 16px;
+  top: 14px;
   right: 18px;
   display: grid;
   width: 32px;
@@ -406,8 +423,7 @@ input {
 
 .juego-nombre {
   max-width: calc(100% - 24px);
-  margin-top: 10px;
-  font-size: 1.45rem;
+  font-size: 1.65rem;
   font-weight: 750;
   letter-spacing: -0.05em;
   line-height: 1.2;
@@ -416,7 +432,7 @@ input {
 .juego-desc {
   max-width: 36ch;
   color: var(--suave);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .sello {
@@ -1091,7 +1107,12 @@ dialog.reglas::backdrop {
   }
 
   .juego {
-    min-height: 170px;
+    min-height: 390px;
+  }
+
+  .juego-imagen {
+    height: 200px;
+    flex-basis: 200px;
   }
 
   .tarjeta {

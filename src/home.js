@@ -43,6 +43,12 @@ export function pintarHome(contenedor, juegos, { onElegir }) {
             class: `juego${estado.tipo === "ganado" || estado.tipo === "perdido" ? " juego-terminado" : ""}`,
             onclick: () => onElegir(juego),
           },
+          h("img", {
+            class: "juego-imagen",
+            src: `${import.meta.env.BASE_URL}${juego.imagen}`,
+            alt: "",
+            loading: "lazy",
+          }),
           estado.tipo === "ganado"
             ? h(
                 "span",
@@ -64,9 +70,13 @@ export function pintarHome(contenedor, juegos, { onElegir }) {
                   "×",
                 )
               : "",
-          h("span", { class: "juego-nombre" }, juego.nombre),
-          h("span", { class: "juego-desc" }, juego.descripcion),
-          h("span", { class: `sello sello-${estado.tipo}` }, estado.texto),
+          h(
+            "span",
+            { class: "juego-contenido" },
+            h("span", { class: "juego-nombre" }, juego.nombre),
+            h("span", { class: "juego-desc" }, juego.descripcion),
+            h("span", { class: `sello sello-${estado.tipo}` }, estado.texto),
+          ),
         ),
       );
     }),

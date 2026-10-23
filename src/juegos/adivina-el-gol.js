@@ -19,9 +19,9 @@ export const aciertos = (respuestas) =>
   respuestas.filter((respuesta) => respuesta.acierto).length;
 
 export function textoCompartir({ fecha, respuestas }) {
-  const cuadros = respuestas.map((respuesta) =>
-    respuesta.acierto ? "🟩" : "🟥",
-  ).join("");
+  const cuadros = respuestas
+    .map((respuesta) => (respuesta.acierto ? "🟩" : "🟥"))
+    .join("");
   return `Adivina el gol ${fecha}\n${aciertos(respuestas)}/${respuestas.length}\n${cuadros}`;
 }
 
@@ -32,6 +32,7 @@ export const adivinaElGol = {
   id: "adivina-el-gol",
   nombre: "Adivina el gol",
   descripcion: "Reconoce goles míticos e históricos a partir de una imagen.",
+  imagen: "images/juegos/adivina-el-gol.png",
   reglas: [
     `Cada día hay ${CANTIDAD} goles, los mismos para todos.`,
     "Mira la imagen y elige cuál de las cuatro opciones identifica el gol.",
@@ -74,7 +75,11 @@ export const adivinaElGol = {
             `Agrega al menos ${CANTIDAD} goles para habilitar el reto diario. ` +
               "Encontrarás el formato y las instrucciones en README.md.",
           ),
-          h("p", { class: "sub" }, `Goles cargados: ${todas.length}/${CANTIDAD}`),
+          h(
+            "p",
+            { class: "sub" },
+            `Goles cargados: ${todas.length}/${CANTIDAD}`,
+          ),
         );
         return () => {};
       }
@@ -153,8 +158,7 @@ function jugar({ id, nombre, contenedor, preguntas, fecha, partida }) {
       loading: "eager",
     });
     imagen.addEventListener("error", () => {
-      errorImagen.textContent =
-        `No se encontró la imagen public/goles/${pregunta.imagen}.`;
+      errorImagen.textContent = `No se encontró la imagen public/goles/${pregunta.imagen}.`;
     });
 
     const responder = (opcion) => {
@@ -225,7 +229,11 @@ function jugar({ id, nombre, contenedor, preguntas, fecha, partida }) {
         acierto ? "🟩 ¡Acertaste! +1 punto" : "🟥 No era esa opción.",
       ),
       h("p", {}, `Tu respuesta: ${opcion}`),
-      h("p", { class: "correcta" }, `Respuesta correcta: ${pregunta.respuesta}`),
+      h(
+        "p",
+        { class: "correcta" },
+        `Respuesta correcta: ${pregunta.respuesta}`,
+      ),
       h(
         "button",
         {
@@ -240,9 +248,7 @@ function jugar({ id, nombre, contenedor, preguntas, fecha, partida }) {
   function finalizar() {
     partida.terminada = true;
     guardar();
-    pantallaFinal(
-      registrarResultado(id, fecha, aciertos(partida.respuestas)),
-    );
+    pantallaFinal(registrarResultado(id, fecha, aciertos(partida.respuestas)));
   }
 
   function pantallaFinal(stats) {
@@ -280,7 +286,11 @@ function jugar({ id, nombre, contenedor, preguntas, fecha, partida }) {
       h("h1", {}, "Reto completado"),
       h("p", { class: "grande" }, `${aciertos(partida.respuestas)} / ${total}`),
       h("pre", { class: "compartir" }, texto),
-      h("button", { class: "primario", onclick: compartir }, "Copiar resultado"),
+      h(
+        "button",
+        { class: "primario", onclick: compartir },
+        "Copiar resultado",
+      ),
       aviso,
       statsBloque(stats),
       h("p", {}, "Próximo reto en ", cuenta.nodo),

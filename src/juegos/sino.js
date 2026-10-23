@@ -25,14 +25,15 @@ export function textoCompartir({ nombre = "Sí o no", fecha, respuestas }) {
 
 /**
  * Crea una versión de Sí o no.
- * @param {{ id: string, nombre: string, descripcion: string }} config
+ * @param {{ id: string, nombre: string, descripcion: string, imagen: string }} config
  *   `id` es también el nombre del JSON: public/data/<id>.json
  */
-export function crearSino({ id, nombre, descripcion }) {
+export function crearSino({ id, nombre, descripcion, imagen }) {
   return {
     id,
     nombre,
     descripcion,
+    imagen,
     reglas: [
       `Cada día hay ${CANTIDAD} afirmaciones, las mismas para todos.`,
       "Lee la afirmación y pulsa Sí si crees que es verdadera, o No si crees que es falsa.",
@@ -80,12 +81,14 @@ export const sino = crearSino({
   id: "sino",
   nombre: "Sí o no",
   descripcion: `${CANTIDAD} afirmaciones al día. ¿Verdaderas o falsas?`,
+  imagen: "images/juegos/Si-o-no.png",
 });
 
 export const sinoFutbol = crearSino({
   id: "sino-futbol",
   nombre: "Sí o no · Fútbol",
   descripcion: `${CANTIDAD} afirmaciones de fútbol al día. ¿Verdaderas o falsas?`,
+  imagen: "images/juegos/si-o-no-futbol.png",
 });
 
 // ---------- Pantallas ----------

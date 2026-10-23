@@ -16,6 +16,7 @@ export const prepararPartida = (todas, fecha, guardada) =>
 export const howmuch = {
   id: ID,
   nombre: "HowMuch",
+  imagen: "images/juegos/howmuch.png",
   descripcion: `Adivina la cifra en ${CANTIDAD} preguntas. Cuanto más cerca, más puntos.`,
   reglas: [
     `Cada día hay ${CANTIDAD} preguntas, las mismas para todos.`,

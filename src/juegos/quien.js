@@ -35,18 +35,20 @@ const urlFoto = (carpeta, archivo) =>
   `${import.meta.env.BASE_URL}${carpeta}/${archivo}`;
 
 /**
- * @param {{ id: string, nombre: string, descripcion: string, carpetaFotos?: string }} config
+ * @param {{ id: string, nombre: string, descripcion: string, imagen: string, carpetaFotos?: string }} config
  */
 export function crearQuienEs({
   id,
   nombre,
   descripcion,
+  imagen,
   carpetaFotos = `fotos/${id}`,
 }) {
   return {
     id,
     nombre,
     descripcion,
+    imagen,
     reglas: [
       `Cada día hay ${CANTIDAD} jugadores, los mismos para todos.`,
       "Ves una foto recortada, sin la cara. Escribe el nombre y pulsa Responder. No importan mayúsculas ni tildes.",
@@ -108,6 +110,7 @@ export const quienEsFutbol = crearQuienEs({
   id: "quien-es-futbol",
   nombre: "¿Quién es? Fútbol",
   descripcion: `Adivina el futbolista por una foto sin cara. +1 si aciertas, −1 si fallas.`,
+  imagen: "images/juegos/Adivina-el-jugador.png",
   carpetaFotos: "fotos-quien-es",
 });
 
