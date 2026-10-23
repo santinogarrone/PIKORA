@@ -5,6 +5,9 @@ export function prepararPartida(todas, fecha, guardada, cantidad) {
   const tieneCopiaDelDia =
     Array.isArray(guardada?.preguntas) &&
     guardada.preguntas.length === cantidad;
+  const cambioCantidad =
+    Array.isArray(guardada?.preguntas) &&
+    guardada.preguntas.length !== cantidad;
   const hayCopia =
     tieneCopiaDelDia &&
     guardada.preguntas.every((pregunta) => {
@@ -20,7 +23,7 @@ export function prepararPartida(todas, fecha, guardada, cantidad) {
     ? guardada.preguntas
     : preguntasDelDia(todas, fecha, cantidad);
   const partida =
-    tieneCopiaDelDia && !hayCopia
+    cambioCantidad || (tieneCopiaDelDia && !hayCopia)
       ? { fecha, respuestas: [], terminada: false, preguntas }
       : guardada
         ? { ...guardada, preguntas }

@@ -2,243 +2,243 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Se creó el Wi-Fi antes que el primer ordenador electrónico.",
-      "respuesta": false,
-      "explicacion": "El ENIAC es de 1945. El primer estándar Wi-Fi (802.11) es de 1997."
+      "texto": "Cleopatra vivió más cerca temporalmente de la llegada del ser humano a la Luna que de la construcción de la Gran Pirámide de Guiza.",
+      "respuesta": true,
+      "explicacion": "Cleopatra murió en el año 30 a. C., unos 2.000 años antes de la llegada a la Luna en 1969. La Gran Pirámide se construyó alrededor del 2560 a. C., unos 2.500 años antes de Cleopatra."
     },
     {
       "id": 2,
-      "texto": "Los pulpos tienen tres corazones.",
-      "respuesta": true,
-      "explicacion": "Dos bombean sangre a las branquias y uno al resto del cuerpo."
+      "texto": "Mercurio tiene una atmósfera compuesta principalmente por dióxido de carbono, similar a la de Venus.",
+      "respuesta": false,
+      "explicacion": "Mercurio posee una exosfera extremadamente tenue, compuesta por elementos como oxígeno, sodio, hidrógeno y helio. Venus, en cambio, tiene una atmósfera muy densa dominada por dióxido de carbono."
     },
     {
       "id": 3,
-      "texto": "En Venus, un día dura más que un año.",
+      "texto": "El núcleo interno de la Tierra es sólido a pesar de alcanzar temperaturas comparables a las de la superficie del Sol.",
       "respuesta": true,
-      "explicacion": "Venus tarda unos 243 días terrestres en girar sobre sí mismo y 225 en dar la vuelta al Sol."
+      "explicacion": "La enorme presión mantiene sólido el núcleo interno, compuesto principalmente por hierro y níquel, aunque su temperatura se estima en varios miles de grados."
     },
     {
       "id": 4,
-      "texto": "La Gran Muralla China se ve a simple vista desde la Luna.",
+      "texto": "Si se midiera la altura de las montañas desde el centro de la Tierra, el Everest seguiría siendo la más alta.",
       "respuesta": false,
-      "explicacion": "Es muy estrecha para la distancia. Ningún astronauta la ha visto así."
+      "explicacion": "El Chimborazo, en Ecuador, tiene su cima más alejada del centro terrestre debido al abultamiento ecuatorial del planeta."
     },
     {
       "id": 5,
-      "texto": "Los plátanos son bayas, según la botánica.",
-      "respuesta": true,
-      "explicacion": "Una baya tiene la semilla dentro de la pulpa. Las fresas, en cambio, no lo son."
+      "texto": "Todos los mamíferos dan a luz crías vivas, sin excepción.",
+      "respuesta": false,
+      "explicacion": "Los monotremas, como el ornitorrinco y los equidnas, son mamíferos que ponen huevos."
     },
     {
       "id": 6,
-      "texto": "Un rayo nunca cae dos veces en el mismo lugar.",
-      "respuesta": false,
-      "explicacion": "El Empire State recibe unos 20 rayos al año."
+      "texto": "La densidad media de Saturno es inferior a la del agua líquida.",
+      "respuesta": true,
+      "explicacion": "Saturno tiene una densidad media aproximada de 0,69 gramos por centímetro cúbico, inferior a la del agua. Esto no significa que pudiera colocarse realmente en un océano, ya que no tiene una superficie sólida convencional."
     },
     {
       "id": 7,
-      "texto": "Argentina ganó su primer Mundial de fútbol en 1978.",
+      "texto": "El agua puede hervir a una temperatura inferior a 100 °C sin necesidad de añadir ninguna otra sustancia.",
       "respuesta": true,
-      "explicacion": "Fue en casa, con final contra Países Bajos. El segundo llegó en 1986."
+      "explicacion": "El punto de ebullición depende de la presión. En lugares de gran altitud, donde la presión atmosférica es menor, el agua hierve a temperaturas inferiores a 100 °C."
     },
     {
       "id": 8,
-      "texto": "Los murciélagos son ciegos.",
+      "texto": "Los pulpos tienen sangre azul porque utilizan hemoglobina para transportar oxígeno.",
       "respuesta": false,
-      "explicacion": "Todas las especies ven. Muchas, además, se orientan con ecolocalización."
+      "explicacion": "Su sangre es azulada porque utiliza hemocianina, una proteína que contiene cobre. La hemoglobina de los vertebrados utiliza hierro."
     },
     {
       "id": 9,
-      "texto": "El Everest es la montaña más alta del mundo medida desde su base hasta la cima.",
-      "respuesta": false,
-      "explicacion": "Es el punto más alto sobre el nivel del mar. Medido desde su base en el fondo del océano, gana el Mauna Kea, en Hawái."
+      "texto": "El ADN mitocondrial humano se hereda normalmente de la madre.",
+      "respuesta": true,
+      "explicacion": "Las mitocondrias se transmiten casi exclusivamente por vía materna. Por eso, el ADN mitocondrial permite estudiar determinadas líneas de ascendencia materna."
     },
     {
       "id": 10,
-      "texto": "La Torre Eiffel es unos 15 cm más alta en verano que en invierno.",
-      "respuesta": true,
-      "explicacion": "El hierro se dilata con el calor."
+      "texto": "Neptuno fue descubierto antes que Urano.",
+      "respuesta": false,
+      "explicacion": "Urano fue identificado como planeta por William Herschel en 1781. Neptuno fue descubierto en 1846, después de que se predijera matemáticamente su posición."
     },
     {
       "id": 11,
-      "texto": "Usamos solo el 10 % del cerebro.",
+      "texto": "El Imperio bizantino utilizaba oficialmente ese nombre para referirse a sí mismo.",
       "respuesta": false,
-      "explicacion": "Usamos todo el cerebro, aunque no todas las zonas a la vez."
+      "explicacion": "Sus habitantes se consideraban romanos y llamaban romano a su imperio. El término Imperio bizantino se popularizó siglos después para distinguirlo del Imperio romano de Occidente."
     },
     {
       "id": 12,
-      "texto": "La lengua materna con más hablantes en el mundo es el mandarín.",
-      "respuesta": true,
-      "explicacion": "Tiene más de 900 millones de hablantes nativos. El inglés es el más extendido como segunda lengua."
+      "texto": "Julio César fue el primer emperador romano de la historia.",
+      "respuesta": false,
+      "explicacion": "César fue dictador de la República romana, pero no inauguró formalmente el sistema imperial. El primer emperador romano suele considerarse Augusto, quien consolidó su poder en el año 27 a. C."
     },
     {
       "id": 13,
-      "texto": "La capital de Australia es Sídney.",
-      "respuesta": false,
-      "explicacion": "Es Canberra. Se creó en 1913 para no elegir entre Sídney y Melbourne."
+      "texto": "El hormigón utilizado por los romanos podía desarrollar reacciones químicas que favorecían su durabilidad en ambientes marinos.",
+      "respuesta": true,
+      "explicacion": "En ciertos hormigones romanos, la interacción entre el agua de mar y los materiales volcánicos generó minerales que contribuyeron a su resistencia a largo plazo."
     },
     {
       "id": 14,
-      "texto": "Napoleón era muy bajo para su época.",
+      "texto": "El Imperio otomano dejó de existir oficialmente antes de que terminara la Primera Guerra Mundial.",
       "respuesta": false,
-      "explicacion": "Medía alrededor de 1,69 m, algo más que la media francesa de entonces. El mito viene de confundir unidades de medida."
+      "explicacion": "La Primera Guerra Mundial terminó en 1918. El sultanato otomano fue abolido en 1922 y la República de Turquía se proclamó en 1923."
     },
     {
       "id": 15,
-      "texto": "Los tiburones existían antes que los árboles.",
+      "texto": "La escritura cuneiforme mesopotámica se utilizó inicialmente para registrar información económica y administrativa.",
       "respuesta": true,
-      "explicacion": "Hay tiburones de hace unos 450 millones de años. Los primeros árboles son de hace unos 385 millones."
+      "explicacion": "Los primeros registros cuneiformes conocidos, de finales del cuarto milenio a. C., incluían cantidades de productos, transacciones y bienes administrados."
     },
     {
       "id": 16,
-      "texto": "La Universidad de Oxford es anterior al Imperio azteca.",
-      "respuesta": true,
-      "explicacion": "Se enseñaba en Oxford desde 1096. Tenochtitlan se fundó en 1325."
+      "texto": "La Declaración de Independencia de Estados Unidos fue firmada por todos sus representantes el mismo 4 de julio de 1776.",
+      "respuesta": false,
+      "explicacion": "El 4 de julio corresponde a la aprobación del texto. La mayoría de las firmas se añadieron el 2 de agosto de 1776, aunque hubo firmas posteriores."
     },
     {
       "id": 17,
-      "texto": "El ojo de un avestruz es más grande que su cerebro.",
+      "texto": "Marie Curie fue la primera persona en ganar premios Nobel en dos disciplinas científicas diferentes.",
       "respuesta": true,
-      "explicacion": "Mide unos 5 cm de diámetro."
+      "explicacion": "Ganó el Nobel de Física en 1903 y el de Química en 1911. Sigue siendo la única persona que ha recibido premios Nobel en dos ciencias diferentes."
     },
     {
       "id": 18,
-      "texto": "El sonido viaja más rápido en el agua que en el aire.",
+      "texto": "El calendario gregoriano, utilizado actualmente en gran parte del mundo, se introdujo originalmente en 1582.",
       "respuesta": true,
-      "explicacion": "Unos 1.480 m/s en el agua frente a unos 343 m/s en el aire."
+      "explicacion": "Fue promulgado por el papa Gregorio XIII para corregir el desfase acumulado por el calendario juliano. Su adopción se produjo gradualmente en distintos países."
     },
     {
       "id": 19,
-      "texto": "El Sahara es el mayor desierto del mundo.",
-      "respuesta": false,
-      "explicacion": "Es el mayor desierto cálido. El mayor de todos es la Antártida."
+      "texto": "La teoría de la deriva continental fue propuesta por Alfred Wegener antes de que se descubriera la estructura de las placas tectónicas modernas.",
+      "respuesta": true,
+      "explicacion": "Wegener presentó su teoría en 1912. La tectónica de placas se desarrolló décadas después, especialmente durante las décadas de 1950 y 1960."
     },
     {
       "id": 20,
-      "texto": "Los gatos pueden ver en oscuridad total.",
-      "respuesta": false,
-      "explicacion": "Ven con muy poca luz, pero sin ninguna luz no ven."
+      "texto": "El número cero ya se utilizaba como número en la India antes de que se difundiera ampliamente por Europa.",
+      "respuesta": true,
+      "explicacion": "Matemáticos de la India desarrollaron el uso del cero como número y sus reglas aritméticas. Su transmisión al mundo islámico y posteriormente a Europa fue fundamental para las matemáticas modernas."
     },
     {
       "id": 21,
-      "texto": "El primer sitio web se publicó antes de 1995.",
+      "texto": "El protocolo TCP/IP se convirtió en la base de la comunicación de ARPANET el 1 de enero de 1983.",
       "respuesta": true,
-      "explicacion": "Tim Berners-Lee lo publicó en el CERN en 1991."
+      "explicacion": "Ese día, conocido como el cambio de bandera, ARPANET completó la transición de NCP a TCP/IP, un hito clave en el desarrollo de Internet."
     },
     {
       "id": 22,
-      "texto": "Google se fundó antes que Facebook.",
-      "respuesta": true,
-      "explicacion": "Google, en 1998. Facebook, en 2004."
+      "texto": "El símbolo @ fue inventado específicamente para las direcciones de correo electrónico en 1971.",
+      "respuesta": false,
+      "explicacion": "El símbolo existía desde mucho antes. Ray Tomlinson lo eligió en 1971 para separar el nombre del usuario del ordenador o sistema de destino en las direcciones de correo."
     },
     {
       "id": 23,
-      "texto": "Un adulto tiene más de 300 huesos.",
+      "texto": "La primera imagen de un agujero negro publicada por el Event Horizon Telescope en 2019 correspondía al centro de la Vía Láctea.",
       "respuesta": false,
-      "explicacion": "Tiene 206. Los bebés nacen con unos 300 que se van fusionando."
+      "explicacion": "La primera imagen publicada fue la de M87*, un agujero negro supermasivo situado en la galaxia Messier 87. La imagen de Sagitario A*, en el centro de la Vía Láctea, se presentó en 2022."
     },
     {
       "id": 24,
-      "texto": "Buenos Aires está más al sur que Ciudad del Cabo.",
-      "respuesta": true,
-      "explicacion": "Buenos Aires está a 34,6° S y Ciudad del Cabo a 33,9° S."
+      "texto": "La arquitectura original de Internet fue diseñada para que toda la comunicación dependiera de un único ordenador central.",
+      "respuesta": false,
+      "explicacion": "Las redes de conmutación de paquetes permiten que los datos viajen por distintas rutas. La arquitectura distribuida ayuda a evitar que un único punto de fallo interrumpa toda la comunicación."
     },
     {
       "id": 25,
-      "texto": "Un rayo alcanza más temperatura que la superficie del Sol.",
+      "texto": "El lenguaje de programación C se desarrolló antes que Pascal.",
       "respuesta": true,
-      "explicacion": "Unos 30.000 K frente a unos 5.500 K."
+      "explicacion": "C comenzó a desarrollarse entre 1969 y 1972 en los laboratorios Bell. Pascal fue diseñado por Niklaus Wirth y publicado en 1970."
     },
     {
       "id": 26,
-      "texto": "La Antártida es un desierto.",
+      "texto": "La Antártida contiene aproximadamente el 70 % del agua dulce de la Tierra en forma de hielo.",
       "respuesta": true,
-      "explicacion": "Casi no llueve ni nieva. Un desierto se define por la falta de precipitaciones, no por el calor."
+      "explicacion": "La enorme capa de hielo antártica almacena cerca del 70 % del agua dulce del planeta y alrededor del 90 % de su hielo."
     },
     {
       "id": 27,
-      "texto": "El hierro es el metal más abundante en la corteza terrestre.",
+      "texto": "El río Amazonas es necesariamente el río más largo del mundo, independientemente del método utilizado para medirlo.",
       "respuesta": false,
-      "explicacion": "Es el aluminio. El hierro es el cuarto elemento más abundante, y la mayor parte del hierro de la Tierra está en el núcleo."
+      "explicacion": "La clasificación entre el Amazonas y el Nilo depende de cómo se definan y midan sus fuentes y recorridos. El Nilo se considera tradicionalmente el más largo, aunque algunos estudios sitúan al Amazonas por delante."
     },
     {
       "id": 28,
-      "texto": "Un año luz mide tiempo.",
-      "respuesta": false,
-      "explicacion": "Mide distancia: lo que recorre la luz en un año, unos 9,46 billones de km."
+      "texto": "Rusia tiene más husos horarios oficiales que China, a pesar de que China ocupa una extensión geográfica menor.",
+      "respuesta": true,
+      "explicacion": "Rusia utiliza 11 husos horarios oficiales. China utiliza uno solo, el horario de Pekín, aunque su territorio se extiende geográficamente por varias zonas horarias."
     },
     {
       "id": 29,
-      "texto": "Los camaleones cambian de color sobre todo para camuflarse.",
-      "respuesta": false,
-      "explicacion": "Lo usan sobre todo para comunicarse y regular la temperatura."
+      "texto": "El mar Caspio es considerado geográficamente un lago, aunque su nombre incluya la palabra mar.",
+      "respuesta": true,
+      "explicacion": "Es la mayor masa de agua interior cerrada del mundo. No tiene una conexión natural directa con los océanos, aunque su clasificación jurídica y geográfica puede variar según el contexto."
     },
     {
       "id": 30,
-      "texto": "La Revolución de Mayo ocurrió en 1816.",
+      "texto": "Groenlandia tiene una superficie mayor que todo el continente africano.",
       "respuesta": false,
-      "explicacion": "Fue en 1810. En 1816 se declaró la independencia."
+      "explicacion": "Groenlandia tiene unos 2,16 millones de km², mientras que África supera los 30 millones de km²."
     },
     {
       "id": 31,
-      "texto": "Einstein suspendió matemáticas en el colegio.",
-      "respuesta": false,
-      "explicacion": "Dominaba el cálculo a los 15 años. El mito nace de un cambio en la escala de notas de su escuela."
+      "texto": "Los Andes constituyen la cordillera continental más larga del mundo.",
+      "respuesta": true,
+      "explicacion": "Se extienden por el borde occidental de Sudamérica durante aproximadamente 7.000 kilómetros, atravesando varios países."
     },
     {
       "id": 32,
-      "texto": "Los avestruces entierran la cabeza en la arena cuando tienen miedo.",
+      "texto": "Brasil comparte una frontera terrestre con Chile.",
       "respuesta": false,
-      "explicacion": "No lo hacen. Se echan en el suelo y estiran el cuello, y de lejos parece que la cabeza no está."
+      "explicacion": "Brasil limita con casi todos los países sudamericanos, pero no con Chile ni Ecuador. Ambos están separados del territorio brasileño por otros países."
     },
     {
       "id": 33,
-      "texto": "El vidrio de las ventanas antiguas es más grueso abajo porque el vidrio fluye con los siglos.",
-      "respuesta": false,
-      "explicacion": "Es un mito. El vidrio de entonces se fabricaba irregular y se colocaba con la parte gruesa abajo."
+      "texto": "El punto más profundo conocido de los océanos se encuentra en la fosa de las Marianas.",
+      "respuesta": true,
+      "explicacion": "El abismo Challenger, dentro de esa fosa del Pacífico occidental, alcanza aproximadamente los 11.000 metros de profundidad, según las mediciones y estimaciones utilizadas."
     },
     {
       "id": 34,
-      "texto": "El Mundial de fútbol de 1930 se jugó en Uruguay.",
-      "respuesta": true,
-      "explicacion": "Fue el primero. Ganó Uruguay, con final contra Argentina."
+      "texto": "El monte Kilimanjaro se encuentra en Kenia, porque está situado muy cerca de la frontera con Tanzania.",
+      "respuesta": false,
+      "explicacion": "El Kilimanjaro está en Tanzania, cerca de la frontera con Kenia. Con aproximadamente 5.895 metros, es la montaña más alta de África."
     },
     {
       "id": 35,
-      "texto": "La primera llamada desde un teléfono móvil se hizo en 1973.",
+      "texto": "El hígado humano puede recuperar gran parte de su masa después de que se extirpe quirúrgicamente una porción.",
       "respuesta": true,
-      "explicacion": "Martin Cooper, de Motorola, llamó desde una calle de Nueva York."
+      "explicacion": "El hígado tiene una capacidad notable de regeneración: las células restantes pueden proliferar y recuperar gran parte de la masa funcional perdida, aunque esto no significa que cualquier lesión sea reversible."
     },
     {
       "id": 36,
-      "texto": "El primer correo electrónico entre ordenadores se envió después de que el hombre pisara la Luna.",
+      "texto": "Los hongos están evolutivamente más emparentados con los animales que con las plantas.",
       "respuesta": true,
-      "explicacion": "La Luna fue en 1969. Ray Tomlinson envió el primer correo en red en 1971."
+      "explicacion": "Los análisis evolutivos indican que los hongos y los animales comparten un ancestro común más reciente entre sí que con las plantas."
     },
     {
       "id": 37,
-      "texto": "Un tomate es una fruta.",
-      "respuesta": true,
-      "explicacion": "Botánicamente es el fruto de la planta, con las semillas dentro."
+      "texto": "Los tardígrados pueden sobrevivir indefinidamente en cualquier ambiente, incluso cuando están metabólicamente activos.",
+      "respuesta": false,
+      "explicacion": "Algunas especies pueden entrar en un estado de latencia extrema y resistir condiciones muy adversas durante cierto tiempo. Sin embargo, no son invulnerables ni sobreviven indefinidamente a cualquier condición."
     },
     {
       "id": 38,
-      "texto": "Los delfines duermen con medio cerebro despierto.",
+      "texto": "Las abejas pueden comunicar la dirección y la distancia aproximada de una fuente de alimento mediante una danza.",
       "respuesta": true,
-      "explicacion": "Una mitad descansa mientras la otra les permite seguir nadando y respirando."
+      "explicacion": "La danza del meneo de las abejas melíferas transmite información sobre la dirección respecto del Sol y la distancia aproximada hasta una fuente de alimento."
     },
     {
       "id": 39,
-      "texto": "Los koalas tienen huellas dactilares casi idénticas a las humanas.",
-      "respuesta": true,
-      "explicacion": "Se confunden incluso al microscopio."
+      "texto": "Los tiburones tienen un esqueleto compuesto principalmente por hueso mineralizado, como el de los seres humanos.",
+      "respuesta": false,
+      "explicacion": "Los tiburones son peces cartilaginosos. Su esqueleto está formado principalmente por cartílago, aunque algunas partes pueden presentar calcificación."
     },
     {
       "id": 40,
-      "texto": "YouTube se fundó después que Twitter.",
-      "respuesta": false,
-      "explicacion": "YouTube, en 2005. Twitter, en 2006."
+      "texto": "El primer Mundial de fútbol masculino se disputó en 1930 y contó con selecciones europeas que viajaron en barco hasta Uruguay.",
+      "respuesta": true,
+      "explicacion": "El torneo inaugural se celebró en Uruguay en 1930. Varias selecciones europeas participaron después de realizar un largo viaje transatlántico, y Uruguay terminó consagrándose campeón."
     }
   ]
 }

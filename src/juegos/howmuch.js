@@ -6,7 +6,7 @@ import { leerPartida } from "../storage.js";
 import { iniciarJuego } from "../juego.js";
 
 export const ID = "howmuch";
-export const CANTIDAD = 10;
+export const CANTIDAD = 5;
 
 const PUNTOS_FALLO_10 = puntosPregunta({ min: 0, max: 100, respuesta: 50 }, 60);
 

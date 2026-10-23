@@ -685,6 +685,20 @@
       "alias": ["Maldini"],
       "fotoRecortada": "maldini-recortada.jpg",
       "foto": "maldini.jpg"
+    },
+    {
+      "id": 201,
+      "nombre": "Hugo Lloris",
+      "alias": ["Lloris"],
+      "fotoRecortada": "lloris-recortada.jpg",
+      "foto": "lloris.jpg"
+    },
+    {
+      "id": 202,
+      "nombre": "Michael Essien",
+      "alias": ["Essien"],
+      "fotoRecortada": "essien-recortada.jpg",
+      "foto": "essien.jpg"
     }
   ]
 }

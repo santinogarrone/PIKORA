@@ -12,7 +12,7 @@ import { foto, precargar } from "../foto.js";
 import { h } from "../dom.js";
 import { statsBloque, cuentaAtras } from "../ui.js";
 
-export const CANTIDAD = 10;
+export const CANTIDAD = 5;
 
 export const prepararPartida = (todas, fecha, guardada) =>
   preparar(todas, fecha, guardada, CANTIDAD);

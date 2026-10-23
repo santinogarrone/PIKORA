@@ -11,7 +11,7 @@ import { guardarPartida, leerPartida, leerStats, registrarResultado } from "../s
 import { h } from "../dom.js";
 import { statsBloque, cuentaAtras, progresoBloque } from "../ui.js";
 
-export const CANTIDAD = 10;
+export const CANTIDAD = 5;
 
 export const prepararPartida = (todas, fecha, guardada) => preparar(todas, fecha, guardada, CANTIDAD);
 

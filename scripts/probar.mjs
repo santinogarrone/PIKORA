@@ -7,6 +7,7 @@ import {
   formatearCuentaAtras,
 } from "../src/fecha.js";
 import { preguntasDelDia } from "../src/semilla.js";
+import { prepararPartida as prepararPartidaComun } from "../src/partida.js";
 import { puntosPregunta, emojiPuntos, textoCompartir } from "../src/puntos.js";
 import {
   aciertos as aciertosGol,
@@ -204,6 +205,8 @@ ok("storage con datos corruptos no rompe", () => {
 const { JUEGOS } = await import("../src/juegos/index.js");
 const { howmuch, CANTIDAD, prepararPartida } =
   await import("../src/juegos/howmuch.js");
+const { CANTIDAD: cantidadSino } = await import("../src/juegos/sino.js");
+const { CANTIDAD: cantidadQuien } = await import("../src/juegos/quien.js");
 
 ok("catálogo: cada juego tiene lo que el Home y el popup necesitan", () => {
   assert.ok(JUEGOS.length >= 1);
@@ -217,6 +220,39 @@ ok("catálogo: cada juego tiene lo que el Home y el popup necesitan", () => {
     assert.equal(typeof j.estado, "function");
     assert.equal(typeof j.montar, "function");
   }
+});
+
+ok("cada juego tiene cinco preguntas, salvo Adivina el gol, que tiene tres", () => {
+  assert.equal(CANTIDAD, 5);
+  assert.equal(cantidadSino, 5);
+  assert.equal(cantidadQuien, 5);
+  assert.equal(cantidadGoles, 3);
+  assert.ok(
+    [CANTIDAD, cantidadSino, cantidadQuien, cantidadGoles].every(
+      (cantidad) => cantidad <= 10,
+    ),
+  );
+});
+
+ok("cambiar la cantidad de preguntas reinicia una partida guardada incompatible", () => {
+  const anteriores = Array.from({ length: 10 }, (_, i) => ({ id: i + 1 }));
+  const guardada = {
+    fecha: "2026-10-17",
+    respuestas: [{ id: 1 }],
+    terminada: true,
+    preguntas: anteriores,
+  };
+  const todas = Array.from({ length: 20 }, (_, i) => ({ id: i + 1 }));
+  const { partida, preguntas } = prepararPartidaComun(
+    todas,
+    "2026-10-17",
+    guardada,
+    5,
+  );
+  assert.equal(preguntas.length, 5);
+  assert.deepEqual(partida.preguntas, preguntas);
+  assert.deepEqual(partida.respuestas, []);
+  assert.equal(partida.terminada, false);
 });
 
 ok(
@@ -253,7 +289,7 @@ ok("estado del Home: nuevo, en curso, ganado y perdido", () => {
   guardarPartida("howmuch", { fecha: hoy, respuestas: todas, terminada: true });
   assert.deepEqual(howmuch.estado(), {
     tipo: "ganado",
-    texto: `Ganado · Hoy: 840/${CANTIDAD * 100}`,
+    texto: `Ganado · Hoy: ${CANTIDAD * 84}/${CANTIDAD * 100}`,
   });
 
   // Una partida de ayer no cuenta hoy.
